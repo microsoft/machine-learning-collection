@@ -74,7 +74,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [OpenKP](https://github.com/microsoft/OpenKP) - automatically extracting keyphrases that are salient to the document meanings is an essential step in semantic document understanding.
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
 
-### Interactive Machine Learning
+### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
 
 ### Recommendation
