@@ -147,12 +147,13 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 
 
-### Debug
+### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
 - [Bench ML](https://github.com/microsoft/benchml) - Python library to benchmark popular pre-built cloud AI APIs.
 - [debugpy](https://github.com/microsoft/debugpy) - An implementation of the Debug Adapter Protocol for Python
 - [kineto](https://github.com/pytorch/kineto) - A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters contributed by Azure AI Platform team.
+- [SuperBenchmark](https://github.com/microsoft/superbenchmark) - a benchmarking and diagnosis tool for AI infrastructure (software & hardware).
 
 ### Pipeline
 - [GitHub Actions](https://github.com/features/actions) - Automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.
