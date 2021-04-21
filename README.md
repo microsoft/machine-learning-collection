@@ -49,7 +49,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
 
 ### Graph & Network
-- [graspologic](https://github.com/microsoft/graspologic) - graph statistical algorithms.
+- [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
 - [TF Graph Neural Network Samples](https://github.com/microsoft/tf-gnn-samples) - tensorFlow implementations of graph neural networks.
 - [ptgnn](https://github.com/microsoft/ptgnn) - PyTorch Graph Neural Network Library
 - [StemGNN](https://github.com/microsoft/StemGNN) - spectral temporal graph neural network (StemGNN) for multivariate time-series forecasting.
@@ -154,6 +154,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [debugpy](https://github.com/microsoft/debugpy) - An implementation of the Debug Adapter Protocol for Python
 - [kineto](https://github.com/pytorch/kineto) - A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters contributed by Azure AI Platform team.
 - [SuperBenchmark](https://github.com/microsoft/superbenchmark) - a benchmarking and diagnosis tool for AI infrastructure (software & hardware).
+
 
 ### Pipeline
 - [GitHub Actions](https://github.com/features/actions) - Automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.
