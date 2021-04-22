@@ -49,7 +49,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
 
 ### Graph & Network
-- [graspologic](https://github.com/microsoft/graspologic) - graph statistical algorithms.
+- [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
 - [TF Graph Neural Network Samples](https://github.com/microsoft/tf-gnn-samples) - tensorFlow implementations of graph neural networks.
 - [ptgnn](https://github.com/microsoft/ptgnn) - PyTorch Graph Neural Network Library
 - [StemGNN](https://github.com/microsoft/StemGNN) - spectral temporal graph neural network (StemGNN) for multivariate time-series forecasting.
@@ -74,7 +74,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [OpenKP](https://github.com/microsoft/OpenKP) - automatically extracting keyphrases that are salient to the document meanings is an essential step in semantic document understanding.
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
 
-### Interactive Machine Learning
+### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
 
 ### Recommendation
@@ -144,13 +144,17 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [MS MARCO](https://microsoft.github.io/msmarco/) - collection of datasets focused on deep learning in search.
 - [InnerEye CreateDataset](https://github.com/microsoft/InnerEye-CreateDataset) - InnerEye dataset creation tool for InnerEye-DeepLearning library. Transforms DICOM data into mask for training Deep Learning models.
 - [Sepsis Cohort from MIMIC III](https://github.com/microsoft/mimic_sepsis) - Sepsis cohort from MIMIC dataset.
+- [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 
-### Debug
+
+### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
 - [Bench ML](https://github.com/microsoft/benchml) - Python library to benchmark popular pre-built cloud AI APIs.
 - [debugpy](https://github.com/microsoft/debugpy) - An implementation of the Debug Adapter Protocol for Python
 - [kineto](https://github.com/pytorch/kineto) - A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters contributed by Azure AI Platform team.
+- [SuperBenchmark](https://github.com/microsoft/superbenchmark) - a benchmarking and diagnosis tool for AI infrastructure (software & hardware).
+
 
 ### Pipeline
 - [GitHub Actions](https://github.com/features/actions) - Automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.
@@ -169,9 +173,11 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
 - [VoTT](https://github.com/microsoft/VoTT) - Visual object tagging tool
+
 ### Developer tool
 - [Visual Studio Code](https://github.com/microsoft/vscode) -  Code editor redefined and optimized for building and debugging modern web and cloud applications.
-
+- [Gather](https://marketplace.visualstudio.com/items?itemName=ms-python.gather) - adds gather functionality in the Python language to the Jupyter Extension.
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylances) - an extension that works alongside Python in Visual Studio Code to provide performant language support.
 
 ### Sample Code
 - [Microsoft AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth-tech-resources)
@@ -210,6 +216,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
 - [Microsoft Open Source Blog](https://cloudblogs.microsoft.com/opensource/) - blog about microsoft open source technology.
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
+- [Microsoft Innovation Tech Hub](https://innovation.microsoft.com/en-us/developer) - AI project in Microsoft.
+- [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog) - Blog by LinkedIn Engineering Team    
 <br>
 
 ---
