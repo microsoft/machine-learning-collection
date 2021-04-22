@@ -216,6 +216,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
 - [Microsoft Open Source Blog](https://cloudblogs.microsoft.com/opensource/) - blog about microsoft open source technology.
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
+- [Microsoft Innovation Tech Hub](https://innovation.microsoft.com/en-us/developer) - AI project in Microsoft.
 - [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog) - Blog by LinkedIn Engineering Team    
 <br>
 
