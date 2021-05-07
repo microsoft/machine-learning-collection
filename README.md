@@ -201,6 +201,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
 
+- [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
+
+
 
 
 ### Workshop
