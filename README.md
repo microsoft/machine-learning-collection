@@ -226,8 +226,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Data Scientist](https://docs.microsoft.com/en-us/learn/roles/data-scientist), [AI Engineer](https://docs.microsoft.com/en-us/learn/roles/ai-engineer)
 - [Data Science for Manager](https://github.com/microsoft/datascience4managers) - Generalization, Utility, and Experimentation: ML Concepts for Making Better Business Decisions
 - [Github Learning Lab](https://lab.github.com/) - learning contents for Github technology.
+- [Getting started with Python](https://github.com/microsoft/c9-python-getting-started) - Sample code for Channel 9 Python for Beginners course.
 
-### Blog, News & Webinar
+## Blog, News & Webinar
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
 - [Microsoft Open Source Blog](https://cloudblogs.microsoft.com/opensource/) - blog about microsoft open source technology.
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
