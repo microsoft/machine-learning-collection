@@ -180,6 +180,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Visual Studio Code](https://github.com/microsoft/vscode) -  Code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Gather](https://marketplace.visualstudio.com/items?itemName=ms-python.gather) - adds gather functionality in the Python language to the Jupyter Extension.
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylances) - an extension that works alongside Python in Visual Studio Code to provide performant language support.
+- [Azure ML Snippets](https://github.com/Azure/azureml-snippets) - VSCode snippets for Azure Machine Learning
 
 ### Sample Code
 - [Microsoft AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth-tech-resources)
