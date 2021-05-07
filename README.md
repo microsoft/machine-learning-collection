@@ -47,6 +47,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [O-CNN](https://github.com/microsoft/O-CNN) - Octree-based convolutional neural networks for 3D shape analysis.
 - [ResNet](https://github.com/KaimingHe/deep-residual-networks) - deep residual network.
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
+- [InfiniBatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
 
 ### Graph & Network
 - [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
@@ -108,7 +109,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Confidential ONNX Inference Server](https://github.com/microsoft/onnx-server-openenclave) - An Open Enclave port of the ONNX inference server with data encryption and attestation capabilities to enable confidential inference on Azure Confidential Computing.
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
-
+- [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
 
 ### Optimization
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
@@ -134,6 +135,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Bonsai](https://azure.microsoft.com/en-us/services/project-bonsai/) - low code industrial machine teaching platform.
     - [Bonsai Python SDK](https://github.com/BonsaiAI/bonsai3-py) - A python library for integrating data sources with Bonsai BRAIN.
 
+### Security
+- [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
 
 
 ### Windows
@@ -178,6 +181,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Visual Studio Code](https://github.com/microsoft/vscode) -  Code editor redefined and optimized for building and debugging modern web and cloud applications.
 - [Gather](https://marketplace.visualstudio.com/items?itemName=ms-python.gather) - adds gather functionality in the Python language to the Jupyter Extension.
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylances) - an extension that works alongside Python in Visual Studio Code to provide performant language support.
+- [Azure ML Snippets](https://github.com/Azure/azureml-snippets) - VSCode snippets for Azure Machine Learning
 
 ### Sample Code
 - [Microsoft AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth-tech-resources)
@@ -193,12 +197,23 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Visual Analogies](https://github.com/microsoft/art) - exploring the connections between artworks with deep "Visual Analogies".
 
 - [Forecasting Best Practices](https://github.com/microsoft/forecasting) - time series forecasting best practices & examples.
+
 - [Computer Vision Recipes](https://github.com/microsoft/computervision-recipes) - best practices, code samples, and documentation for Computer Vision.
+
+- [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
+
+- [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
+
+
 
 
 ### Workshop
 
 :runner: coming soon
+
+
+### Competition
+- [2020 Machine Learning Security Evasion Competition](https://github.com/Azure/2020-machine-learning-security-evasion-competition) - code samples for the 2020 Machine Learning Security Evasion Competition.
 
 ### Book
 - [PRML](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/) - Pattern Recognition and Machine Learning by Christopher Bishop
@@ -211,8 +226,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Data Scientist](https://docs.microsoft.com/en-us/learn/roles/data-scientist), [AI Engineer](https://docs.microsoft.com/en-us/learn/roles/ai-engineer)
 - [Data Science for Manager](https://github.com/microsoft/datascience4managers) - Generalization, Utility, and Experimentation: ML Concepts for Making Better Business Decisions
 - [Github Learning Lab](https://lab.github.com/) - learning contents for Github technology.
+- [Getting started with Python](https://github.com/microsoft/c9-python-getting-started) - Sample code for Channel 9 Python for Beginners course.
 
-### Blog, News & Webinar
+## Blog, News & Webinar
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
 - [Microsoft Open Source Blog](https://cloudblogs.microsoft.com/opensource/) - blog about microsoft open source technology.
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
