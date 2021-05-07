@@ -196,12 +196,20 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Visual Analogies](https://github.com/microsoft/art) - exploring the connections between artworks with deep "Visual Analogies".
 
 - [Forecasting Best Practices](https://github.com/microsoft/forecasting) - time series forecasting best practices & examples.
+
 - [Computer Vision Recipes](https://github.com/microsoft/computervision-recipes) - best practices, code samples, and documentation for Computer Vision.
+
+- [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
+
 
 
 ### Workshop
 
 :runner: coming soon
+
+
+### Competition
+- [2020 Machine Learning Security Evasion Competition](https://github.com/Azure/2020-machine-learning-security-evasion-competition) - code samples for the 2020 Machine Learning Security Evasion Competition.
 
 ### Book
 - [PRML](https://www.microsoft.com/en-us/research/people/cmbishop/prml-book/) - Pattern Recognition and Machine Learning by Christopher Bishop
