@@ -134,6 +134,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Bonsai](https://azure.microsoft.com/en-us/services/project-bonsai/) - low code industrial machine teaching platform.
     - [Bonsai Python SDK](https://github.com/BonsaiAI/bonsai3-py) - A python library for integrating data sources with Bonsai BRAIN.
 
+### Security
+- [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
 
 
 ### Windows
