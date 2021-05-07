@@ -108,7 +108,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Confidential ONNX Inference Server](https://github.com/microsoft/onnx-server-openenclave) - An Open Enclave port of the ONNX inference server with data encryption and attestation capabilities to enable confidential inference on Azure Confidential Computing.
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
-
+- [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
 
 ### Optimization
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
