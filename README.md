@@ -61,6 +61,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Time Series
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
+- [Greykite](https://github.com/linkedin/greykite) - flexible, intuitive and fast forecasts through its flagship algorithm, Silverkite.
 
 ### NLP
 - [T-ULRv2](https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv2-tops-xtreme-leaderboard/) - Turing multilingual language model.
