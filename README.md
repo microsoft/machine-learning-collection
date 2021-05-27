@@ -13,7 +13,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Interactive Machine Learning](#interactive-machine-learning)
 - [Recommendation](#recommendation)
 - [Distributed](#distributed)
-- [Casual Inference](#casual-inference)
+- [Causal Inference](#causal-inference)
 - [Responsible AI](#responsible-ai)
 - [Optimization](#optimization)
 - [Reinforcement Learning](#reinforcement-learning)
@@ -90,7 +90,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [pyton-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
 - [TonY](https://github.com/linkedin/TonY) - framwork to natively run deep learning frameworks on apache hadoop.
 
-### Casual Inference
+### Causal Inference
 - [EconML](https://github.com/microsoft/EconML) - Python package for estimating heterogeneous treatment effects from observational data via machine learning. 
 - [DoWhy](https://github.com/microsoft/dowhy) - Python library for causal inference that supports explicit modeling and testing of causal assumptions. 
 
