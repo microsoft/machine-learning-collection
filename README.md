@@ -61,6 +61,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Time Series
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
+- [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
 - [Greykite](https://github.com/linkedin/greykite) - flexible, intuitive and fast forecasts through its flagship algorithm, Silverkite.
 
 ### NLP
