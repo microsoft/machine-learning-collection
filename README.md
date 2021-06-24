@@ -43,6 +43,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Azure Automated Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) - Automated Machine Learning for Tabular data (regression, classification and forecasting) by Azure Machine Learning
 
 ### Neural Network
+- [PyMarlin](https://github.com/microsoft/PyMarlin) - Lightweight Deep Learning Model Training library based on PyTorch.
 - [bayesianize](https://github.com/microsoft/bayesianize) - A Bayesian neural network wrapper in pytorch.
 - [O-CNN](https://github.com/microsoft/O-CNN) - Octree-based convolutional neural networks for 3D shape analysis.
 - [ResNet](https://github.com/KaimingHe/deep-residual-networks) - deep residual network.
