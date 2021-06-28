@@ -13,7 +13,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Interactive Machine Learning](#interactive-machine-learning)
 - [Recommendation](#recommendation)
 - [Distributed](#distributed)
-- [Casual Inference](#casual-inference)
+- [Causal Inference](#causal-inference)
 - [Responsible AI](#responsible-ai)
 - [Optimization](#optimization)
 - [Reinforcement Learning](#reinforcement-learning)
@@ -49,6 +49,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ResNet](https://github.com/KaimingHe/deep-residual-networks) - deep residual network.
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
 - [InfiniBatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
+- [Models under Hugging Face](https://huggingface.co/microsoft) - Microsoft shares transformer models at Hugging Face. 51 pretrained models (as of June 28, 2021).
 
 ### Graph & Network
 - [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
@@ -92,7 +93,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [pyton-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
 - [TonY](https://github.com/linkedin/TonY) - framwork to natively run deep learning frameworks on apache hadoop.
 
-### Casual Inference
+### Causal Inference
 - [EconML](https://github.com/microsoft/EconML) - Python package for estimating heterogeneous treatment effects from observational data via machine learning. 
 - [DoWhy](https://github.com/microsoft/dowhy) - Python library for causal inference that supports explicit modeling and testing of causal assumptions. 
 
