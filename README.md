@@ -49,6 +49,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ResNet](https://github.com/KaimingHe/deep-residual-networks) - deep residual network.
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
 - [InfiniBatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
+- [Models under Hugging Face](https://huggingface.co/microsoft) - Microsoft shares transformer models at Hugging Face. 51 pretrained models (as of June 28, 2021).
 
 ### Graph & Network
 - [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
