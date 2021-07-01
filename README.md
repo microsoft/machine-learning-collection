@@ -233,8 +233,11 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Data Science for Manager](https://github.com/microsoft/datascience4managers) - Generalization, Utility, and Experimentation: ML Concepts for Making Better Business Decisions
 - [Github Learning Lab](https://lab.github.com/) - learning contents for Github technology.
 - [Getting started with Python](https://github.com/microsoft/c9-python-getting-started) - Sample code for Channel 9 Python for Beginners course.
-- [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/) - learn the fundamentals of deep learning with PyTorch.
-
+    - [Python for Beginners](https://channel9.msdn.com/Series/Intro-to-Python-Development?WT.mc_id=python-c9-niner)
+    - [More Python for Beginners](https://channel9.msdn.com/Series/More-Python-for-Beginners)
+    - [Even More Python for Beginners](https://channel9.msdn.com/Series/Even-More-Python-for-Beginners-Data-Tools)
+- [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/)- learn the fundamentals of deep learning with PyTorch.
+- [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
 
 
