@@ -235,6 +235,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Getting started with Python](https://github.com/microsoft/c9-python-getting-started) - Sample code for Channel 9 Python for Beginners course.
 - [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/) - learn the fundamentals of deep learning with PyTorch.
 
+- [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
+
+
 ## Blog, News & Webinar
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
 - [Microsoft Open Source Blog](https://cloudblogs.microsoft.com/opensource/) - blog about microsoft open source technology.
