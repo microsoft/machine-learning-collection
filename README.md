@@ -173,9 +173,16 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Platform
 - [AI for Earth API Platform](https://github.com/microsoft/AIforEarth-API-Platform) - distributed infrastructure designed to provide a secure, scalable, and customizable API hosting, designed to handle the needs of long-running/asynchronous machine learning model inference.
-- [HivedDScheduler](https://github.com/microsoft/hivedscheduler) - Kubernetes Scheduler for Deep Learning.
-- [Open Platfom for AI (OpenPAI](https://github.com/Microsoft/pai) - resource scheduling and cluster management for AI.
-- [OpenPAI Runtime](https://github.com/microsoft/openpai-runtime) - Runtime for deep learning workload.
+
+- [Open Platfom for AI (OpenPAI)](https://github.com/Microsoft/pai) - resource scheduling and cluster management for AI.
+    - [OpenPAI Runtime](https://github.com/microsoft/openpai-runtime) - Runtime for deep learning workload.
+    - [OpenPAI Protocol](https://github.com/microsoft/openpai-protocol) - OpenPAI protocol enables job sharing and portability.
+    - [Openpaimarketplace](https://github.com/microsoft/openpaimarketplace) - A marketplace which stores examples and job templates of openpai. 
+    - [OpenPAI FrameworkController](https://github.com/microsoft/frameworkcontroller) - built to orchestrate all kinds of applications on Kubernetes by a single controller.
+    - [HivedDScheduler](https://github.com/microsoft/hivedscheduler) - Kubernetes Scheduler for Deep Learning.
+    - [OpenPAI JS SDK](https://github.com/microsoft/openpaisdk) - The JavaScript SDK is designed to facilitate the developers of OpenPAI to offer user friendly experience.
+    - [OpenPAI VS Code Client](https://github.com/microsoft/openpaivscode) - Extension to connect OpenPAI clusters, submit AI jobs, simulate jobs locally, manage files, and so on.
+
 - [MLOS](https://github.com/microsoft/MLOS) - Data Science powered infrastructure and methodology to democratize and automate Performance Engineering. 
 - [Platform for Situated Intelligence](https://github.com/Microsoft/psi) - an open-source framework for multimodal, integrative AI.
 - [Qlib](https://github.com/microsoft/qlib) - an AI-oriented quantitative investment platform.
