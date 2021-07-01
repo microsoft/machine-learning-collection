@@ -110,6 +110,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [BackwardCompatibilityML](https://github.com/microsoft/BackwardCompatibilityML) - Project for open sourcing research efforts on Backward Compatibility in Machine Learning
 - [confidential-ml-utils](https://github.com/Azure/confidential-ml-utils) - Python utilities for training and deploying ML models against data you can't see.
 - [presidio](https://github.com/Microsoft/presidio) - context aware, pluggable and customizable data protection and anonymization service for text and images.
+    - [Presidio-research](https://github.com/microsoft/presidio-research) - This package features data-science related tasks for developing new recognizers for Presidio. 
 - [Confidential ONNX Inference Server](https://github.com/microsoft/onnx-server-openenclave) - An Open Enclave port of the ONNX inference server with data encryption and attestation capabilities to enable confidential inference on Azure Confidential Computing.
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
@@ -233,8 +234,11 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Data Science for Manager](https://github.com/microsoft/datascience4managers) - Generalization, Utility, and Experimentation: ML Concepts for Making Better Business Decisions
 - [Github Learning Lab](https://lab.github.com/) - learning contents for Github technology.
 - [Getting started with Python](https://github.com/microsoft/c9-python-getting-started) - Sample code for Channel 9 Python for Beginners course.
-- [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/) - learn the fundamentals of deep learning with PyTorch.
-
+    - [Python for Beginners](https://channel9.msdn.com/Series/Intro-to-Python-Development?WT.mc_id=python-c9-niner)
+    - [More Python for Beginners](https://channel9.msdn.com/Series/More-Python-for-Beginners)
+    - [Even More Python for Beginners](https://channel9.msdn.com/Series/Even-More-Python-for-Beginners-Data-Tools)
+- [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/)- learn the fundamentals of deep learning with PyTorch.
+- [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
 
 
