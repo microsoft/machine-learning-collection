@@ -78,6 +78,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [inmt](https://github.com/microsoft/inmt) - interactive neural machine trainslation-lite
 - [OpenKP](https://github.com/microsoft/OpenKP) - automatically extracting keyphrases that are salient to the document meanings is an essential step in semantic document understanding.
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
+- [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
+
 
 ### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
@@ -120,6 +122,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Optimization
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
+    - [ONNX Runtime for PyTorch](https://github.com/pytorch/ort) - Accelerate PyTorch models with ONNX Runtime.
     - [ONNX Runtime Training Examples](https://github.com/microsoft/onnxruntime-training-examples) - examples for using onnx runtime for model training.
     - [ONNS Converter](https://github.com/microsoft/onnxconverter-common) - common utilities for onnx converters.
     - [ONNX.js](https://github.com/microsoft/onnxjs) - run onnx models using javascript.
