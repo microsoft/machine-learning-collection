@@ -65,6 +65,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
 - [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
 - [Greykite](https://github.com/linkedin/greykite) - flexible, intuitive and fast forecasts through its flagship algorithm, Silverkite.
+- [Temporal Cluster Matching for Change Detection of Structures from Satellite Imagery](https://github.com/microsoft/temporal-cluster-matching) - An implementation of the temporal cluster matching method for detecting change in structure footprints from time series of remotely sensed imagery.
 
 ### NLP
 - [T-ULRv2](https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv2-tops-xtreme-leaderboard/) - Turing multilingual language model.
@@ -220,6 +221,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
 
 - [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
+
+- [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 
 
