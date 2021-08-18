@@ -221,6 +221,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
 
+- [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
+
 
 
 
