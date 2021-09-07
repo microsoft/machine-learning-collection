@@ -80,6 +80,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [OpenKP](https://github.com/microsoft/OpenKP) - automatically extracting keyphrases that are salient to the document meanings is an essential step in semantic document understanding.
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
 - [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
+- [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
 
 
 ### Online Machine Learning
