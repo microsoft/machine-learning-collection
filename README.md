@@ -66,6 +66,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
 - [Greykite](https://github.com/linkedin/greykite) - flexible, intuitive and fast forecasts through its flagship algorithm, Silverkite.
 - [Temporal Cluster Matching for Change Detection of Structures from Satellite Imagery](https://github.com/microsoft/temporal-cluster-matching) - An implementation of the temporal cluster matching method for detecting change in structure footprints from time series of remotely sensed imagery.
+- [Microsoft Finance Time Series Forecasting Framework](https://github.com/microsoft/finnts) - a forecasting package that utilizes cutting-edge time series forecasting and parallelization on the cloud to produce accurate forecasts for financial data.
 
 ### NLP
 - [T-ULRv2](https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv2-tops-xtreme-leaderboard/) - Turing multilingual language model.
@@ -80,6 +81,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [OpenKP](https://github.com/microsoft/OpenKP) - automatically extracting keyphrases that are salient to the document meanings is an essential step in semantic document understanding.
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
 - [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
+- [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
 
 
 ### Online Machine Learning
