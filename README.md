@@ -82,7 +82,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [DeText](https://github.com/linkedin/detext) - a deep neural text understanding framework for ranking and classification tasks.
 - [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
 - [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
-
+- [VERSEAGILITY](https://github.com/microsoft/verseagility) - a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
 
 ### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
