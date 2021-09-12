@@ -161,7 +161,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [InnerEye CreateDataset](https://github.com/microsoft/InnerEye-CreateDataset) - InnerEye dataset creation tool for InnerEye-DeepLearning library. Transforms DICOM data into mask for training Deep Learning models.
 - [Sepsis Cohort from MIMIC III](https://github.com/microsoft/mimic_sepsis) - Sepsis cohort from MIMIC dataset.
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
-
+- [Dataset for AI for Earth](https://github.com/microsoft/AIforEarthDataSets) - AIForEarthDataSets is a collection of datasets for AI research.
 
 ### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
@@ -205,10 +205,16 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Sample Code
 - [Microsoft AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth-tech-resources)
+    - [Shared utilities](https://github.com/microsoft/ai4eutils) - A collection of utilities for working with Azure Machine Learning.
     - [acoustic-bird-detection](https://github.com/microsoft/acoustic-bird-detection) - Tutorial: Accurate Bioacoustic Species Detection from Small Numbers of Training Clips Using the Biophony Model
     - [beluasound](https://github.com/microsoft/belugasounds) - Using machine learning to detect beluga whale calls in hydrophone recordings.
     - [arcticseals](https://github.com/microsoft/arcticseals) - detect & classify arctic seals in aerial imagery to understand how they’re adapting to a changing world.
+    - [AIDE: Annotation Interface for Data-driven Ecology](https://github.com/microsoft/aerial_wildlife_detection) - Detecting and classifying wildlife in aerial imagery.
     - [Camera Trap Tool](https://github.com/microsoft/CameraTraps) - tools for training and running detectors and classifiers for wildlife images collected from motion-triggered cameras.
+    - [Land cover mapping the Orinoquía region](https://github.com/microsoft/landcover-orinoquia) - A tool for predicting landcover in the Orinoquia region of Peru.
+    - [Planetary Computer Hub](https://github.com/microsoft/PlanetaryComputerExamples) - a development environment that makes our data and APIs accessible through familiar, open-source tools, and allows users to easily scale their analyses.
+    - [Planetary Computer SDK for Python](https://github.com/microsoft/planetary-computer-sdk-for-python) - A Python SDK for the Planetary Computer Hub.
+    - [Species Classification](https://github.com/microsoft/SpeciesClassification) - A tool for classifying species in images.
 - [News Threads](https://github.com/microsoft/News-Threads) - The News Threads project analyzes news articles to help find similarities between news articles and trace news provenance across time.
 - [InnerEye DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning) - Medical Imaging Deep Learning library to train and deploy models on Azure Machine Learning and Azure Stack
 - [Deep Seismic](https://github.com/microsoft/seismic-deeplearning) - Deep Learning for Seismic Imaging and Interpretation
