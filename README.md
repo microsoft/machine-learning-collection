@@ -60,7 +60,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Vision
 - [Microsoft Vision Model ResNet50](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) - a large pretrained vision ResNet-50 model using search engine's web-scale image data.
 - [Oscar](https://github.com/microsoft/Oscar) - Object-Semantics Aligned Pre-training for Vision-Language Tasks.
-
+- [TorchGeo](https://github.com/microsoft/torchgeo) - a PyTorch domain library, similar to torchvision, that provides datasets, transforms, samplers, and pre-trained models specific to geospatial data.
 ### Time Series
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
 - [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
