@@ -213,6 +213,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Camera Trap Tool](https://github.com/microsoft/CameraTraps) - tools for training and running detectors and classifiers for wildlife images collected from motion-triggered cameras.
     - [Land cover mapping the Orinoquía region](https://github.com/microsoft/landcover-orinoquia) - A tool for predicting landcover in the Orinoquia region of Peru.
     - [Planetary Computer Hub](https://github.com/microsoft/PlanetaryComputerExamples) - a development environment that makes our data and APIs accessible through familiar, open-source tools, and allows users to easily scale their analyses.
+    - [Poultry barn mapping](https://github.com/microsoft/poultry-cafos) - code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States.
     - [Planetary Computer SDK for Python](https://github.com/microsoft/planetary-computer-sdk-for-python) - A Python SDK for the Planetary Computer Hub.
     - [Species Classification](https://github.com/microsoft/SpeciesClassification) - A tool for classifying species in images.
 - [News Threads](https://github.com/microsoft/News-Threads) - The News Threads project analyzes news articles to help find similarities between news articles and trace news provenance across time.
