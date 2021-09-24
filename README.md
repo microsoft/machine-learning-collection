@@ -165,7 +165,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Sepsis Cohort from MIMIC III](https://github.com/microsoft/mimic_sepsis) - Sepsis cohort from MIMIC dataset.
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 - [Dataset for AI for Earth](https://github.com/microsoft/AIforEarthDataSets) - AIForEarthDataSets is a collection of datasets for AI research.
-
+- [ORBIT](https://github.com/microsoft/ORBIT-Dataset) - a collection of videos of objects in clean and cluttered scenes recorded by people who are blind/low-vision on a mobile phone. 
 ### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
@@ -237,8 +237,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 - [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
-
-
+- [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
 ### Workshop
 
 :runner: coming soon
@@ -274,7 +273,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Microsoft Innovation Tech Hub](https://innovation.microsoft.com/en-us/developer) - AI project in Microsoft.
 - [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog) - Blog by LinkedIn Engineering Team    
 <br>
-
+- [AI System](https://github.com/microsoft/AI-System) - system for AI Education Resource.
 ---
 
 
