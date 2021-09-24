@@ -84,6 +84,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
 - [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
 - [VERSEAGILITY](https://github.com/microsoft/verseagility) - a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
+- [DPU Utilities](https://github.com/Microsoft/dpu-utils) - Utilities used by the Deep Program Understanding team.
 
 ### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
@@ -91,6 +92,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Recommendation
 - [Recommenders](https://github.com/microsoft/recommenders) - examples and best practics for building recommendation systems (A2SVD, DKN, xDeepFM, LightGBM, LSTUR, NAML, NPA, NRMS, RLRMC, SAR, Vowpal Wabbit are invented/contributed by Microsoft).
 - [GDMIX](https://github.com/linkedin/gdmix) - A deep ranking personalization framework
+- [rankerEval](https://github.com/microsoft/rankerEval) - A fast numpy-based implementation of ranking metrics for information retrieval and recommendation.
 
 
 ### Distributed
@@ -234,7 +236,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
-
+- [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
 
 
 ### Workshop
