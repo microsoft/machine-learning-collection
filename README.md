@@ -10,7 +10,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Vision](#vision)
 - [Time Series](#time-series)
 - [NLP](#nlp)
-- [Interactive Machine Learning](#interactive-machine-learning)
+- [Online Machine Learning](#interactive-machine-learning)
 - [Recommendation](#recommendation)
 - [Distributed](#distributed)
 - [Causal Inference](#causal-inference)
@@ -272,8 +272,10 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
 - [Microsoft Innovation Tech Hub](https://innovation.microsoft.com/en-us/developer) - AI project in Microsoft.
 - [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog) - Blog by LinkedIn Engineering Team    
+- [AI System](https://github.com/microsoft/AI-System) - system for AI Education Resource (Chinese).
+- [AI Edu](https://github.com/microsoft/ai-edu) - AI education materials for Chinese students, teachers and IT professionals (Chinese).
+
 <br>
-- [AI System](https://github.com/microsoft/AI-System) - system for AI Education Resource.
 ---
 
 
