@@ -10,7 +10,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Vision](#vision)
 - [Time Series](#time-series)
 - [NLP](#nlp)
-- [Interactive Machine Learning](#interactive-machine-learning)
+- [Online Machine Learning](#interactive-machine-learning)
 - [Recommendation](#recommendation)
 - [Distributed](#distributed)
 - [Causal Inference](#causal-inference)
@@ -50,6 +50,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [CNTK](https://github.com/microsoft/CNTK) - microsoft cognitive toolkit (CNTK), open source deep-learning toolkit.
 - [InfiniBatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
 - [Models under Hugging Face](https://huggingface.co/microsoft) - Microsoft shares transformer models at Hugging Face. 51 pretrained models (as of June 28, 2021).
+- [Muzic](https://github.com/microsoft/muzic) - Music Understanding and Generation with Artificial Intelligence.
 
 ### Graph & Network
 - [graspologic](https://github.com/microsoft/graspologic) - utilities and algorithms designed for the processing and analysis of graphs with specialized graph statistical algorithms.
@@ -60,7 +61,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Vision
 - [Microsoft Vision Model ResNet50](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) - a large pretrained vision ResNet-50 model using search engine's web-scale image data.
 - [Oscar](https://github.com/microsoft/Oscar) - Object-Semantics Aligned Pre-training for Vision-Language Tasks.
-
+- [TorchGeo](https://github.com/microsoft/torchgeo) - a PyTorch domain library, similar to torchvision, that provides datasets, transforms, samplers, and pre-trained models specific to geospatial data.
 ### Time Series
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
 - [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
@@ -83,6 +84,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Genalog](https://github.com/microsoft/genalog) - an open source, cross-platform python package allowing generation of synthetic document images with custom degradations and text alignment capabilities.
 - [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
 - [VERSEAGILITY](https://github.com/microsoft/verseagility) - a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
+- [DPU Utilities](https://github.com/Microsoft/dpu-utils) - Utilities used by the Deep Program Understanding team.
 
 ### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
@@ -90,6 +92,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Recommendation
 - [Recommenders](https://github.com/microsoft/recommenders) - examples and best practics for building recommendation systems (A2SVD, DKN, xDeepFM, LightGBM, LSTUR, NAML, NPA, NRMS, RLRMC, SAR, Vowpal Wabbit are invented/contributed by Microsoft).
 - [GDMIX](https://github.com/linkedin/gdmix) - A deep ranking personalization framework
+- [rankerEval](https://github.com/microsoft/rankerEval) - A fast numpy-based implementation of ranking metrics for information retrieval and recommendation.
 
 
 ### Distributed
@@ -162,7 +165,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Sepsis Cohort from MIMIC III](https://github.com/microsoft/mimic_sepsis) - Sepsis cohort from MIMIC dataset.
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 - [Dataset for AI for Earth](https://github.com/microsoft/AIforEarthDataSets) - AIForEarthDataSets is a collection of datasets for AI research.
-
+- [ORBIT](https://github.com/microsoft/ORBIT-Dataset) - a collection of videos of objects in clean and cluttered scenes recorded by people who are blind/low-vision on a mobile phone. 
 ### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
@@ -213,6 +216,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Camera Trap Tool](https://github.com/microsoft/CameraTraps) - tools for training and running detectors and classifiers for wildlife images collected from motion-triggered cameras.
     - [Land cover mapping the Orinoquía region](https://github.com/microsoft/landcover-orinoquia) - A tool for predicting landcover in the Orinoquia region of Peru.
     - [Planetary Computer Hub](https://github.com/microsoft/PlanetaryComputerExamples) - a development environment that makes our data and APIs accessible through familiar, open-source tools, and allows users to easily scale their analyses.
+    - [Poultry barn mapping](https://github.com/microsoft/poultry-cafos) - code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States.
     - [Planetary Computer SDK for Python](https://github.com/microsoft/planetary-computer-sdk-for-python) - A Python SDK for the Planetary Computer Hub.
     - [Species Classification](https://github.com/microsoft/SpeciesClassification) - A tool for classifying species in images.
 - [News Threads](https://github.com/microsoft/News-Threads) - The News Threads project analyzes news articles to help find similarities between news articles and trace news provenance across time.
@@ -232,9 +236,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
-
-
-
+- [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
+- [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
 ### Workshop
 
 :runner: coming soon
@@ -269,8 +272,10 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Microsoft Research Event, Conference & Webinars](https://www.microsoft.com/en-us/research/webinar/) - Events, Conferences & Webinars by Microsoft Research.
 - [Microsoft Innovation Tech Hub](https://innovation.microsoft.com/en-us/developer) - AI project in Microsoft.
 - [LinkedIn Engineering Blog](https://engineering.linkedin.com/blog) - Blog by LinkedIn Engineering Team    
-<br>
+- [AI System](https://github.com/microsoft/AI-System) - system for AI Education Resource (Chinese).
+- [AI Edu](https://github.com/microsoft/ai-edu) - AI education materials for Chinese students, teachers and IT professionals (Chinese).
 
+<br>
 ---
 
 
