@@ -62,6 +62,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Microsoft Vision Model ResNet50](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) - a large pretrained vision ResNet-50 model using search engine's web-scale image data.
 - [Oscar](https://github.com/microsoft/Oscar) - Object-Semantics Aligned Pre-training for Vision-Language Tasks.
 - [TorchGeo](https://github.com/microsoft/torchgeo) - a PyTorch domain library, similar to torchvision, that provides datasets, transforms, samplers, and pre-trained models specific to geospatial data.
+- [Swin Transformer](https://github.com/microsoft/Swin-Transformer) - an official implementation for "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows".
+
 ### Time Series
 - [luminol](https://github.com/linkedin/luminol) - anomaly detection and correlation library.
 - [SR-CNN](https://github.com/microsoft/anomalydetector) - Spectral Residual based anomaly detection algorithm, SR-CNN implementation.
@@ -265,6 +267,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/)- learn the fundamentals of deep learning with PyTorch.
 - [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
+- [Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners) - 10 Weeks, 20 Lessons, Data Science for All!
 - [Microsoft Cloud Workshop](https://github.com/microsoft/MCW-ML-Ops) - Wide World Importers (WWI) delivers innovative solutions for manufacturers.
 
 ## Blog, News & Webinar
