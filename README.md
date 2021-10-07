@@ -265,7 +265,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Get started with PyTorch](https://docs.microsoft.com/en-US/learn/paths/pytorch-fundamentals/)- learn the fundamentals of deep learning with PyTorch.
 - [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
-- [Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners) - 10 Weeks, 20 Lessons, Data Science for All!
+- [Microsoft Cloud Workshop](https://github.com/microsoft/MCW-ML-Ops) - Wide World Importers (WWI) delivers innovative solutions for manufacturers.
 
 ## Blog, News & Webinar
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
