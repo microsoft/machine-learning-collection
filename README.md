@@ -239,8 +239,11 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 - [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
-- [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
-- [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
+- Microsoft Solution Accelerators
+    - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
+    - [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
+    - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
+
 ### Workshop
 
 :runner: coming soon
