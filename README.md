@@ -100,8 +100,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Distributed
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training easy, efficient, and effective.
 - [MMLSpark](https://github.com/Azure/mmlspark) - machine learning library on spark.
-- [pyton-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
-- [TonY](https://github.com/linkedin/TonY) - framwork to natively run deep learning frameworks on apache hadoop.
+- [photon-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
+- [TonY](https://github.com/linkedin/TonY) - framework to natively run deep learning frameworks on apache hadoop.
 
 ### Causal Inference
 - [EconML](https://github.com/microsoft/EconML) - Python package for estimating heterogeneous treatment effects from observational data via machine learning. 
@@ -132,7 +132,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
     - [ONNX Runtime for PyTorch](https://github.com/pytorch/ort) - Accelerate PyTorch models with ONNX Runtime.
     - [ONNX Runtime Training Examples](https://github.com/microsoft/onnxruntime-training-examples) - examples for using onnx runtime for model training.
-    - [ONNS Converter](https://github.com/microsoft/onnxconverter-common) - common utilities for onnx converters.
+    - [ONNX Converter](https://github.com/microsoft/onnxconverter-common) - common utilities for onnx converters.
     - [ONNX.js](https://github.com/microsoft/onnxjs) - run onnx models using javascript.
     - [ONNX.js Demo](https://github.com/microsoft/onnxjs-demo) - demos for ONNX.js.
     - [Olive](https://github.com/microsoft/OLive) - a sequence of docker images that automates the process of ONNX model shipping.
