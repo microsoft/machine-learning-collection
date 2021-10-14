@@ -100,8 +100,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Distributed
 - [DeepSpeed](https://github.com/microsoft/DeepSpeed) - DeepSpeed is a deep learning optimization library that makes distributed training easy, efficient, and effective.
 - [MMLSpark](https://github.com/Azure/mmlspark) - machine learning library on spark.
-- [pyton-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
+- [Photon Machine Learning](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
 - [TonY](https://github.com/linkedin/TonY) - framwork to natively run deep learning frameworks on apache hadoop.
+- [isolation-forest](https://github.com/linkedin/isolation-forest) - A Spark/Scala implementation of the isolation forest unsupervised outlier detection algorithm.
 
 ### Causal Inference
 - [EconML](https://github.com/microsoft/EconML) - Python package for estimating heterogeneous treatment effects from observational data via machine learning. 
