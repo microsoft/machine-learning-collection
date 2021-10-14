@@ -240,14 +240,18 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 - [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
-- [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
-- [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
+
+- Microsoft Solution Accelerators
+    - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
+    - [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
+    - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
 - [Global AI Community](https://globalai.community/) -  empowers developers who are passionate about AI to share knowledge through events and meetups. 
-### Workshop
 - [Deep Learning Lab (Japan)](https://dllab.connpass.com/) - provides information on development cases and the latest technology trends related to deep learning.
+
+### Workshop
 
 :runner: coming soon
 
@@ -274,6 +278,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
 - [Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners) - 10 Weeks, 20 Lessons, Data Science for All!
+- [Microsoft Cloud Workshop](https://github.com/microsoft/MCW-ML-Ops) - Wide World Importers (WWI) delivers innovative solutions for manufacturers.
 
 ## Blog, News & Webinar
 - [channel9 - AI Show](https://channel9.msdn.com/Shows/AI-Show) - videos for developers from people building Microsoft products and services.
