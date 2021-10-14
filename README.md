@@ -102,6 +102,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [MMLSpark](https://github.com/Azure/mmlspark) - machine learning library on spark.
 - [photon-ml](https://github.com/linkedin/photon-ml) - a scalable machine learning library on apache spark.
 - [TonY](https://github.com/linkedin/TonY) - framework to natively run deep learning frameworks on apache hadoop.
+- [isolation-forest](https://github.com/linkedin/isolation-forest) - A Spark/Scala implementation of the isolation forest unsupervised outlier detection algorithm.
 
 ### Causal Inference
 - [EconML](https://github.com/microsoft/EconML) - Python package for estimating heterogeneous treatment effects from observational data via machine learning. 
@@ -137,7 +138,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [ONNX.js Demo](https://github.com/microsoft/onnxjs-demo) - demos for ONNX.js.
     - [Olive](https://github.com/microsoft/OLive) - a sequence of docker images that automates the process of ONNX model shipping.
 - [Hummingbird](https://github.com/microsoft/hummingbird) - compile trained ml model into tensor computation for faster inference.
-- [EdgeML](https://github.com/microsoft/EdgeML) -
+- [EdgeML](https://github.com/microsoft/EdgeML) - provides code for machine learning algorithms for edge devices developed at Microsoft Research India.
 - [DirectML](https://github.com/microsoft/DirectML) - high-performance, hardware-accelerated DirectX 12 library for machine learning.
 - [MMdnn](https://github.com/microsoft/MMdnn) - MMdnn is a set of tools to help users inter-operate among different deep learning frameworks. E.g. model conversion and visualization.
 - [inifinibatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
@@ -239,14 +240,20 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 - [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
+
 - Microsoft Solution Accelerators
     - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
     - [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
     - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
 
+### Community
+- [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
+- [Global AI Community](https://globalai.community/) -  empowers developers who are passionate about AI to share knowledge through events and meetups. 
+- [Deep Learning Lab (Japan)](https://dllab.connpass.com/) - provides information on development cases and the latest technology trends related to deep learning.
+
 ### Workshop
 
-:runner: coming soon
+- [Workshop Wiki](https://github.com/microsoft/machine-learning-collection/wiki/Workshop)
 
 
 ### Competition
