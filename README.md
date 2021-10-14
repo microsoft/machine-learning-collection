@@ -253,7 +253,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Workshop
 
-:runner: coming soon
+- [Workshop Wiki](https://github.com/microsoft/machine-learning-collection/wiki/Workshop)
 
 
 ### Competition
