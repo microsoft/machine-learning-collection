@@ -199,6 +199,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Platform for Situated Intelligence](https://github.com/Microsoft/psi) - an open-source framework for multimodal, integrative AI.
 - [Qlib](https://github.com/microsoft/qlib) - an AI-oriented quantitative investment platform.
 
+### Feature Engineering
+- [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore).
+
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
 - [VoTT](https://github.com/microsoft/VoTT) - Visual object tagging tool
