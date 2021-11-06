@@ -199,6 +199,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Platform for Situated Intelligence](https://github.com/Microsoft/psi) - an open-source framework for multimodal, integrative AI.
 - [Qlib](https://github.com/microsoft/qlib) - an AI-oriented quantitative investment platform.
 
+### Feature Engineering
+- [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore).
+
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
 - [VoTT](https://github.com/microsoft/VoTT) - Visual object tagging tool
@@ -233,13 +236,25 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Computer Vision Recipes](https://github.com/microsoft/computervision-recipes) - best practices, code samples, and documentation for Computer Vision.
 
-- [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
+
 
 - [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
 
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
 
 - [Microsoft Health Intelligence Machine Learning Toolbox](https://github.com/microsoft/hi-ml) - Microsoft Health Intelligence Azure Machine Learning Toolbox.
+
+- [Azure Machine Learning examples](https://github.com/Azure/azureml-examples) - official community-driven Azure Machine Learning examples, tested with GitHub Actions.
+
+- [Azure Machine Learning R Template](https://github.com/microsoft/AzureML-R-template) - patterns and examples for running R code with Azure Machine Learning.
+
+- [Azure Machine Learning Python SDK notebooks](https://github.com/Azure/MachineLearningNotebooks) - python notebooks with ML and deep learning examples with Azure Machine Learning Python SDK.
+
+- [Azure Machine Learning Gallery](https://github.com/Azure/AzureMachineLearningGallery)  - this repo enables our growing community of developers and data scientists to share their machine learning pipelines, components, etc. to accelerate productivity in the machine learning lifecycle.
+
+- [Azure Machine Learning previews](https://github.com/Azure/azureml-previews) - samples for preview features in Azure Machine Learning.
+
+- [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
 
 - Microsoft Solution Accelerators
     - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
