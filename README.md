@@ -88,6 +88,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [FastFormers](https://github.com/microsoft/fastformers) - highly efficient transformer models for NLU.
 - [VERSEAGILITY](https://github.com/microsoft/verseagility) - a Python-based toolkit to ramp up your custom natural language processing (NLP) task, allowing you to bring your own data and bring models into production. It is a central component of the Microsoft Data Science Toolkit.
 - [DPU Utilities](https://github.com/Microsoft/dpu-utils) - Utilities used by the Deep Program Understanding team.
+- [KEAR](https://github.com/microsoft/KEAR) - Official code for achieving human parity on CommonsenseQA with External Attention.
+
 
 ### Online Machine Learning
 - [Vowpal Wabbit](https://vowpalwabbit.org/) - fast, efficient, and flexible online machine learning techniques for reinforcement learning, supervised learning, and more. 
