@@ -159,6 +159,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Security
 - [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
+- [Federated Learning Simulation Framework](https://github.com/microsoft/fl-simulation) - a flexible framework for running experiments with PyTorch models in a simulated Federated Learning (FL) environment.
 
 
 ### Windows
@@ -258,6 +259,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Azure Machine Learning previews](https://github.com/Azure/azureml-previews) - samples for preview features in Azure Machine Learning.
 
 - [AzureML Designer Sample](https://github.com/Azure/MachineLearningDesigner) - samples of Azure Machine Learning designer.
+- [Ship Detector](https://github.com/microsoft/ShipDetection) - train an object detection model that can detect and locate ships in a satellite image.
 
 - Microsoft Solution Accelerators
     - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
