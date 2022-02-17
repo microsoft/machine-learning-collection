@@ -266,6 +266,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
     - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
 
+- [Medical Imaging with Azure Machine Learning Demos](https://github.com/Azure/medical-imaging) - medical imaging demo repository.
+
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
 - [Global AI Community](https://globalai.community/) -  empowers developers who are passionate about AI to share knowledge through events and meetups. 
