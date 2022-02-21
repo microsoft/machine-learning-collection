@@ -136,6 +136,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
     - [ONNX Runtime for PyTorch](https://github.com/pytorch/ort) - Accelerate PyTorch models with ONNX Runtime.
     - [ONNX Runtime Training Examples](https://github.com/microsoft/onnxruntime-training-examples) - examples for using onnx runtime for model training.
+    - [ONNX Runtime Inference Examples](https://github.com/microsoft/onnxruntime-inference-examples) - examples for using onnx runtime for model inference.
     - [ONNX Converter](https://github.com/microsoft/onnxconverter-common) - common utilities for onnx converters.
     - [ONNX.js](https://github.com/microsoft/onnxjs) - run onnx models using javascript.
     - [ONNX.js Demo](https://github.com/microsoft/onnxjs-demo) - demos for ONNX.js.
