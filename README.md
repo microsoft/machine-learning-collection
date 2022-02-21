@@ -34,6 +34,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Boosting
 - [LightGBM](https://github.com/microsoft/LightGBM) - A fast, distributed, high performance gradient boosting framework.
+- [LightGBM benchmarking suite](https://github.com/microsoft/lightgbm-benchmark) - Benchmark tools for LightGBM.
 - [Explainable Boosting Machines](https://github.com/interpretml/interpret) - interpretable model developed in Microsoft Research using bagging, gradient boosting, and automatic interaction detection to estimated generalized additive models.
 - [Cyclic Boosting Machines](https://github.com/microsoft/CBM) - An explainable supervised machine learning algorithm specifically for predicting count-data, such as sales and demand.
 
