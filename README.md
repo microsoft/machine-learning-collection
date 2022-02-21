@@ -34,6 +34,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Boosting
 - [LightGBM](https://github.com/microsoft/LightGBM) - A fast, distributed, high performance gradient boosting framework.
+- [LightGBM benchmarking suite](https://github.com/microsoft/lightgbm-benchmark) - Benchmark tools for LightGBM.
 - [Explainable Boosting Machines](https://github.com/interpretml/interpret) - interpretable model developed in Microsoft Research using bagging, gradient boosting, and automatic interaction detection to estimated generalized additive models.
 - [Cyclic Boosting Machines](https://github.com/microsoft/CBM) - An explainable supervised machine learning algorithm specifically for predicting count-data, such as sales and demand.
 
@@ -136,6 +137,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
     - [ONNX Runtime for PyTorch](https://github.com/pytorch/ort) - Accelerate PyTorch models with ONNX Runtime.
     - [ONNX Runtime Training Examples](https://github.com/microsoft/onnxruntime-training-examples) - examples for using onnx runtime for model training.
+    - [ONNX Runtime Inference Examples](https://github.com/microsoft/onnxruntime-inference-examples) - examples for using onnx runtime for model inference.
     - [ONNX Converter](https://github.com/microsoft/onnxconverter-common) - common utilities for onnx converters.
     - [ONNX.js](https://github.com/microsoft/onnxjs) - run onnx models using javascript.
     - [ONNX.js Demo](https://github.com/microsoft/onnxjs-demo) - demos for ONNX.js.
@@ -265,6 +267,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [MLOps Solution Accelerator](https://github.com/microsoft/dstoolkit-mlops-base) - this repository helps ML teams to accelerate their model deployment to production leveraging Azure.
     - [Anomaly Detection Solution Accelerator](https://github.com/microsoft/dstoolkit-anomaly-detection-ijungle) -  implement Anomaly Detection which is the technique of identifying rare events or observations which can raise suspicions by being statistically different from the rest of the observations.
     - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
+
+- [Medical Imaging with Azure Machine Learning Demos](https://github.com/Azure/medical-imaging) - medical imaging demo repository.
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
