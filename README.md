@@ -211,6 +211,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
 - [VoTT](https://github.com/microsoft/VoTT) - Visual object tagging tool
+- [Satellite imagery annotation tool](https://github.com/microsoft/satellite-imagery-labeling-tool) - A lightweight web-interface for creating and sharing vector annotations over satellite/aerial imagery scenes.
 
 ### Developer tool
 - [Visual Studio Code](https://github.com/microsoft/vscode) -  Code editor redefined and optimized for building and debugging modern web and cloud applications.
