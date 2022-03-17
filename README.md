@@ -207,6 +207,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Feature Engineering
 - [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore).
+- [Feathr](https://github.com/linkedin/feathr) - An Enterprise-Grade, High Performance Feature Store.
 
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
