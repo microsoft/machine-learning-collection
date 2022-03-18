@@ -130,7 +130,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
 - [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
-- [shrike](https://github.com/Azure/shrike) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
+- [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
 
 
 ### Optimization
