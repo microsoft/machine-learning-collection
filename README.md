@@ -182,6 +182,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [debugpy](https://github.com/microsoft/debugpy) - An implementation of the Debug Adapter Protocol for Python
 - [kineto](https://github.com/pytorch/kineto) - A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters contributed by Azure AI Platform team.
 - [SuperBenchmark](https://github.com/microsoft/superbenchmark) - a benchmarking and diagnosis tool for AI infrastructure (software & hardware).
+- [tempeh](https://github.com/microsoft/tempeh) - tempeh is a framework to TEst Machine learning PErformance exHaustively which includes tracking memory usage and run time.
+
 
 
 ### Pipeline
