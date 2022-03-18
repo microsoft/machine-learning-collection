@@ -246,8 +246,6 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Computer Vision Recipes](https://github.com/microsoft/computervision-recipes) - best practices, code samples, and documentation for Computer Vision.
 
-
-
 - [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
 
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
@@ -273,6 +271,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
 
 - [Medical Imaging with Azure Machine Learning Demos](https://github.com/Azure/medical-imaging) - medical imaging demo repository.
+
+- [Federated Learning in Azure ML](https://github.com/Azure-Samples/azure-ml-federated-learning) - Examples and recipes around federated learning in Azure ML.
+
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
