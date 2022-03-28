@@ -130,7 +130,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
 - [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
-- [shrike](https://github.com/Azure/shrike) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
+- [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
 
 
 ### Optimization
@@ -182,6 +182,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [debugpy](https://github.com/microsoft/debugpy) - An implementation of the Debug Adapter Protocol for Python
 - [kineto](https://github.com/pytorch/kineto) - A CPU+GPU Profiling library that provides access to timeline traces and hardware performance counters contributed by Azure AI Platform team.
 - [SuperBenchmark](https://github.com/microsoft/superbenchmark) - a benchmarking and diagnosis tool for AI infrastructure (software & hardware).
+- [tempeh](https://github.com/microsoft/tempeh) - tempeh is a framework to TEst Machine learning PErformance exHaustively which includes tracking memory usage and run time.
+
 
 
 ### Pipeline
@@ -207,6 +209,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 ### Feature Engineering
 - [Feast on Azure](https://github.com/Azure/feast-azure) - Azure plugins for Feast (FEAture STore).
+- [Feathr](https://github.com/linkedin/feathr) - An Enterprise-Grade, High Performance Feature Store.
 
 ### Tagging
 - [TagAnomaly](https://github.com/microsoft/TagAnomaly) - Anomaly detection analysis and labeling tool, specifically for multiple time series (one time series per category)
@@ -243,8 +246,6 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Computer Vision Recipes](https://github.com/microsoft/computervision-recipes) - best practices, code samples, and documentation for Computer Vision.
 
-
-
 - [DeepSpeed Examples](https://github.com/microsoft/DeepSpeedExamples) - Example models using DeepSpeed
 
 - [A TALE OF THREE CITIES](https://github.com/microsoft/A-TALE-OF-THREE-CITIES) - Analyzing the safety (311) dataset published by Azure Open Datasets for Chicago, Boston and New York City using SparkR, SParkSQL, Azure Databricks, visualization using ggplot2 and leaflet.
@@ -270,6 +271,9 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Classification Solution Accelerator](https://github.com/microsoft/dstoolkit-classification-solution-accelerator) - This is a classification solution accelerator to help you build and deploy a binary classification project.
 
 - [Medical Imaging with Azure Machine Learning Demos](https://github.com/Azure/medical-imaging) - medical imaging demo repository.
+
+- [Federated Learning in Azure ML](https://github.com/Azure-Samples/azure-ml-federated-learning) - Examples and recipes around federated learning in Azure ML.
+
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
