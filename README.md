@@ -43,6 +43,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Archai](https://github.com/microsoft/archai) - Reproducible Rapid Research for Neural Architecture Search (NAS).
 - [FLAML](https://github.com/microsoft/FLAML) - A fast and lightweight AutoML library.
 - [Azure Automated Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) - Automated Machine Learning for Tabular data (regression, classification and forecasting) by Azure Machine Learning
+- [Cream](https://github.com/microsoft/Cream) - A collection of Microsoft NAS and Vision Transformer work.
+
 
 ### Neural Network
 - [PyMarlin](https://github.com/microsoft/PyMarlin) - Lightweight Deep Learning Model Training library based on PyTorch.
@@ -60,6 +62,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ptgnn](https://github.com/microsoft/ptgnn) - PyTorch Graph Neural Network Library
 - [StemGNN](https://github.com/microsoft/StemGNN) - spectral temporal graph neural network (StemGNN) for multivariate time-series forecasting.
 - [SPTAG](https://github.com/Microsoft/SPTAG) - a distributed approximate nearest neighborhood search (ANN) library.
+- [DiskANN](https://github.com/microsoft/DiskANN) - Scalable graph based indices for approximate nearest neighbor search.
+- 
 ### Vision
 - [Microsoft Vision Model ResNet50](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) - a large pretrained vision ResNet-50 model using search engine's web-scale image data.
 - [Oscar](https://github.com/microsoft/Oscar) - Object-Semantics Aligned Pre-training for Vision-Language Tasks.
@@ -150,6 +154,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [inifinibatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
 - [InferenceSchema](https://github.com/Azure/InferenceSchema) - Schema decoration for inference code
 - [nnfusion](https://github.com/microsoft/nnfusion) - flexible and efficient deep neural network compiler.
+- [Accera](https://github.com/microsoft/Accera) - Open source cross-platform compiler for compute-intensive loops used in AI algorithms, from Microsoft Research.
 
 ### Reinforcement Learning
 - [AirSim](https://github.com/microsoft/AirSim) - open source simulator for autonomous vehicles build on unreal engine / unity from microsoft research.
