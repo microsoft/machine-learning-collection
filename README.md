@@ -181,6 +181,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 - [Dataset for AI for Earth](https://github.com/microsoft/AIforEarthDataSets) - AIForEarthDataSets is a collection of datasets for AI research.
 - [ORBIT](https://github.com/microsoft/ORBIT-Dataset) - a collection of videos of objects in clean and cluttered scenes recorded by people who are blind/low-vision on a mobile phone. 
+
 ### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
@@ -280,6 +281,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Federated Learning in Azure ML](https://github.com/Azure-Samples/azure-ml-federated-learning) - Examples and recipes around federated learning in Azure ML.
 
+- [Responsible AI Workshop](https://github.com/microsoft/responsible-ai-workshop) - Responsible AI Workshop: a series of tutorials & walkthroughs to illustrate how put responsible AI into practice.
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
