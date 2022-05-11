@@ -136,7 +136,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
 - [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
 - [HAX Toolkit](http://aka.ms/haxtoolkit) - The Human-AI eXperience (HAX) Toolkit is a set of practical tools for creating human-AI experiences with people in mind from the beginning. 
-
+- [GAM Changer](https://github.com/interpretml/gam-changer) - Edit machine learning models to reflect human knowledge and values.
 
 ### Optimization
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
