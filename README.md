@@ -137,6 +137,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
 - [HAX Toolkit](http://aka.ms/haxtoolkit) - The Human-AI eXperience (HAX) Toolkit is a set of practical tools for creating human-AI experiences with people in mind from the beginning. 
 - [GAM Changer](https://github.com/interpretml/gam-changer) - Edit machine learning models to reflect human knowledge and values.
+- [AdaTest](https://github.com/microsoft/adatest) - Find and fix bugs in natural language machine learning models using adaptive testing.
+
 
 ### Optimization
 - [ONNXRuntime](https://github.com/microsoft/onnxruntime) - cross-platfom, high performance ML inference and training accelerator.
@@ -168,6 +170,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Security
 - [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
 - [Federated Learning Simulation Framework](https://github.com/microsoft/fl-simulation) - a flexible framework for running experiments with PyTorch models in a simulated Federated Learning (FL) environment.
+- [FLUTE](https://github.com/microsoft/msrflute) - a platform for conducting high-performance federated learning simulations.
 
 
 ### Windows
