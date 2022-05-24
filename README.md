@@ -43,6 +43,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Archai](https://github.com/microsoft/archai) - Reproducible Rapid Research for Neural Architecture Search (NAS).
 - [FLAML](https://github.com/microsoft/FLAML) - A fast and lightweight AutoML library.
 - [Azure Automated Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml) - Automated Machine Learning for Tabular data (regression, classification and forecasting) by Azure Machine Learning
+- [Cream](https://github.com/microsoft/Cream) - A collection of Microsoft NAS and Vision Transformer work.
+
 
 ### Neural Network
 - [PyMarlin](https://github.com/microsoft/PyMarlin) - Lightweight Deep Learning Model Training library based on PyTorch.
@@ -60,6 +62,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [ptgnn](https://github.com/microsoft/ptgnn) - PyTorch Graph Neural Network Library
 - [StemGNN](https://github.com/microsoft/StemGNN) - spectral temporal graph neural network (StemGNN) for multivariate time-series forecasting.
 - [SPTAG](https://github.com/Microsoft/SPTAG) - a distributed approximate nearest neighborhood search (ANN) library.
+- [DiskANN](https://github.com/microsoft/DiskANN) - Scalable graph based indices for approximate nearest neighbor search.
+- 
 ### Vision
 - [Microsoft Vision Model ResNet50](https://www.microsoft.com/en-us/research/blog/microsoft-vision-model-resnet-50-combines-web-scale-data-and-multi-task-learning-to-achieve-state-of-the-art/) - a large pretrained vision ResNet-50 model using search engine's web-scale image data.
 - [Oscar](https://github.com/microsoft/Oscar) - Object-Semantics Aligned Pre-training for Vision-Language Tasks.
@@ -132,6 +136,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
 - [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
 - [HAX Toolkit](http://aka.ms/haxtoolkit) - The Human-AI eXperience (HAX) Toolkit is a set of practical tools for creating human-AI experiences with people in mind from the beginning. 
+- [GAM Changer](https://github.com/interpretml/gam-changer) - Edit machine learning models to reflect human knowledge and values.
+- [AdaTest](https://github.com/microsoft/adatest) - Find and fix bugs in natural language machine learning models using adaptive testing.
 
 
 ### Optimization
@@ -150,6 +156,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [inifinibatch](https://github.com/microsoft/infinibatch) - Efficient, check-pointed data loading for deep learning with massive data sets.
 - [InferenceSchema](https://github.com/Azure/InferenceSchema) - Schema decoration for inference code
 - [nnfusion](https://github.com/microsoft/nnfusion) - flexible and efficient deep neural network compiler.
+- [Accera](https://github.com/microsoft/Accera) - Open source cross-platform compiler for compute-intensive loops used in AI algorithms, from Microsoft Research.
 
 ### Reinforcement Learning
 - [AirSim](https://github.com/microsoft/AirSim) - open source simulator for autonomous vehicles build on unreal engine / unity from microsoft research.
@@ -163,6 +170,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 ### Security
 - [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
 - [Federated Learning Simulation Framework](https://github.com/microsoft/fl-simulation) - a flexible framework for running experiments with PyTorch models in a simulated Federated Learning (FL) environment.
+- [FLUTE](https://github.com/microsoft/msrflute) - a platform for conducting high-performance federated learning simulations.
 
 
 ### Windows
@@ -176,6 +184,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [MIND : Microsoft News Dataset](https://msnews.github.io/) - a large-scale dataset for news recommendation research.
 - [Dataset for AI for Earth](https://github.com/microsoft/AIforEarthDataSets) - AIForEarthDataSets is a collection of datasets for AI research.
 - [ORBIT](https://github.com/microsoft/ORBIT-Dataset) - a collection of videos of objects in clean and cluttered scenes recorded by people who are blind/low-vision on a mobile phone. 
+
 ### Debug & Benchmark
 - [tensorwatch](https://github.com/microsoft/tensorwatch) - debugging, monitoring and visualization for python machine learning and data science.
 - [PYRIGHT](https://github.com/microsoft/pyright) - static type checker for python.
@@ -275,6 +284,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Federated Learning in Azure ML](https://github.com/Azure-Samples/azure-ml-federated-learning) - Examples and recipes around federated learning in Azure ML.
 
+- [Responsible AI Workshop](https://github.com/microsoft/responsible-ai-workshop) - Responsible AI Workshop: a series of tutorials & walkthroughs to illustrate how put responsible AI into practice.
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
