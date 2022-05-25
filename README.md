@@ -286,6 +286,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 
 - [Responsible AI Workshop](https://github.com/microsoft/responsible-ai-workshop) - Responsible AI Workshop: a series of tutorials & walkthroughs to illustrate how put responsible AI into practice.
 
+- [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Worldwide building footprints derived from satellite imagery.
+
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
 - [Global AI Community](https://globalai.community/) -  empowers developers who are passionate about AI to share knowledge through events and meetups. 
