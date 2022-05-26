@@ -320,6 +320,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Dev Intro to Data Science](https://channel9.msdn.com/Series/Dev-Intro-to-Data-Science) - In this 28-video series, you will learn important concepts and technologies to build your end-to-end machine learning applications on Azure.
 - [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners) - 12 weeks, 24 lessons, classic Machine Learning for all
 - [Data Science for Beginners - A Curriculum](https://github.com/microsoft/Data-Science-For-Beginners) - 10 Weeks, 20 Lessons, Data Science for All!
+- [Artificial Intelligence for Beginners](https://github.com/microsoft/ai-for-beginners) - 12 Weeks, 24 Lessons, AI for All!
 - [Microsoft Cloud Workshop](https://github.com/microsoft/MCW-ML-Ops) - Wide World Importers (WWI) delivers innovative solutions for manufacturers.
 
 ## Blog, News & Webinar
