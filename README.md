@@ -168,6 +168,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Bonsai](https://azure.microsoft.com/en-us/services/project-bonsai/) - low code industrial machine teaching platform.
     - [Bonsai Python SDK](https://github.com/BonsaiAI/bonsai3-py) - A python library for integrating data sources with Bonsai BRAIN.
 
+- [SEGAR](https://github.com/microsoft/segar) - Sandbox environment for generalizable agent research.
+
 ### Security
 - [counterfit](https://github.com/Azure/counterfit) - a CLI that provides a generic automation layer for assessing the security of ML models.
 - [Federated Learning Simulation Framework](https://github.com/microsoft/fl-simulation) - a flexible framework for running experiments with PyTorch models in a simulated Federated Learning (FL) environment.
@@ -288,6 +290,8 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
 - [Responsible AI Workshop](https://github.com/microsoft/responsible-ai-workshop) - Responsible AI Workshop: a series of tutorials & walkthroughs to illustrate how put responsible AI into practice.
 
 - [GlobalMLBuildingFootprints](https://github.com/microsoft/GlobalMLBuildingFootprints) - Worldwide building footprints derived from satellite imagery.
+- [Genomics Data Analysis with Jupyter Notebooks on Azure](https://github.com/microsoft/genomicsnotebook) - Jupyter Notebooks on Azure for Genomics Data Analysis.
+
 
 ### Community
 - [AI@Edge Community](https://microsoft.github.io/ai-at-edge/) - find the resources you need to create solutions using intelligence at the edge through combinations of hardware, machine learning (ML), artificial intelligence (AI) and Microsoft Azure service.
