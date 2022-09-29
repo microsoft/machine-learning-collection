@@ -133,6 +133,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Presidio-research](https://github.com/microsoft/presidio-research) - This package features data-science related tasks for developing new recognizers for Presidio. 
 - [Confidential ONNX Inference Server](https://github.com/microsoft/onnx-server-openenclave) - An Open Enclave port of the ONNX inference server with data encryption and attestation capabilities to enable confidential inference on Azure Confidential Computing.
 - [Responsible-AI-Widgets](https://github.com/microsoft/responsible-ai-widgets) - responsible AI user interfaces for Fairlearn, interpret-community, and Error Analysis, as well as foundational building blocks that they rely on.
+- [Responsible AI Mitigations](https://github.com/microsoft/responsible-ai-toolbox-mitigations) - Python library for implementing mitigations and performing data balance analysis for Responsible AI.
 - [Error Analysis](https://erroranalysis.ai/) - A toolkit to help analyze and improve model accuracy.
 - [Secure Data Sandbox](https://github.com/microsoft/secure-data-sandbox) - A toolkit for conducting machine learning trials against confidential data.
 - [shrike](https://azure.github.io/shrike/) - Python utilities to aid "compliant experiment" in Azure Machine Learning - training ML models without seeing the training data.
