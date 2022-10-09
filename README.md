@@ -251,6 +251,7 @@ Microsoft contributing libraries, tools, recipes, sample codes and workshop cont
     - [Poultry barn mapping](https://github.com/microsoft/poultry-cafos) - code for detecting poultry barns from high-resolution aerial imagery and an accompanying dataset of predicted barns over the United States.
     - [Planetary Computer SDK for Python](https://github.com/microsoft/planetary-computer-sdk-for-python) - A Python SDK for the Planetary Computer Hub.
     - [Species Classification](https://github.com/microsoft/SpeciesClassification) - A tool for classifying species in images.
+    - [FarmVibes.AI](https://github.com/microsoft/farmvibes-ai) - Multi-Modal GeoSpatial ML Models for Agriculture and Sustainability.
 - [News Threads](https://github.com/microsoft/News-Threads) - The News Threads project analyzes news articles to help find similarities between news articles and trace news provenance across time.
 - [InnerEye DeepLearning](https://github.com/microsoft/InnerEye-DeepLearning) - Medical Imaging Deep Learning library to train and deploy models on Azure Machine Learning and Azure Stack
 - [Deep Seismic](https://github.com/microsoft/seismic-deeplearning) - Deep Learning for Seismic Imaging and Interpretation
