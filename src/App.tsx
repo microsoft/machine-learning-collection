@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import items from "./data/contents.js"
 import ItemList from "./components/ItemList"
@@ -11,7 +10,6 @@ console.log(allTopics)
 function App() {
   const [Item, setItem] = useState(items);
   const [topics, setTopics] = useState(allTopics);
-  const [count, setCount] = useState(0);
 
   const topicFilter = (button:string) => {
     if (button === "All Topics") {
