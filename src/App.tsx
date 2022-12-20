@@ -3,7 +3,7 @@ import './App.css';
 import items from "./data/contents.js"
 import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
-const allTopics = ["All Topics", ...new Set(items.map((item) => item.topics))].flat();
+const allTopics = [...new Set(["All Topics", ...items.map((item) => item.topics)].flat())];
 
 console.log(allTopics)
 
@@ -20,6 +20,10 @@ function App() {
     setItem(filteredData);
     console.log(button);
     console.log(filteredData);
+
+    const updatedTopics = topics.filter((item) => (item.match(button))==null);
+    setTopics(updatedTopics)
+    console.log(updatedTopics)
   };
 
   return (
@@ -29,7 +33,6 @@ function App() {
       </div>
       <Topic topic={topics} topicFilter={topicFilter} />
       <ItemList items={Item} />
-
     </div>
   );
 }
