@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/microsoft/machine-learning-collection/static/css/main.073c9b0a.css",
-    "main.js": "/microsoft/machine-learning-collection/static/js/main.26eca984.js",
-    "static/js/787.28cb0dcd.chunk.js": "/microsoft/machine-learning-collection/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/microsoft/machine-learning-collection/index.html",
-    "main.073c9b0a.css.map": "/microsoft/machine-learning-collection/static/css/main.073c9b0a.css.map",
-    "main.26eca984.js.map": "/microsoft/machine-learning-collection/static/js/main.26eca984.js.map",
-    "787.28cb0dcd.chunk.js.map": "/microsoft/machine-learning-collection/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/machine-learning-collection/static/css/main.073c9b0a.css",
+    "main.js": "/machine-learning-collection/static/js/main.540ab80a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/machine-learning-collection/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/machine-learning-collection/index.html",
+    "main.073c9b0a.css.map": "/machine-learning-collection/static/css/main.073c9b0a.css.map",
+    "main.540ab80a.js.map": "/machine-learning-collection/static/js/main.540ab80a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/machine-learning-collection/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.26eca984.js"
+    "static/js/main.540ab80a.js"
   ]
 }
