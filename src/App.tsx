@@ -1,5 +1,6 @@
-import {useState} from 'react';
-import './App.css';
+import {useState} from 'react'; 
+import { Stack, IStackStyles, IStackTokens, IStackItemStyles } from '@fluentui/react/lib/Stack';
+import './css/App.css';
 import items from "./data/contents.js"
 import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
@@ -33,6 +34,14 @@ function App() {
       </div>
       <Topic topic={topics} topicFilter={topicFilter} />
       <ItemList items={Item} />
+      <footer className="footer">
+      <span>Copyright &copy; Microsoft Corporation</span>
+        <address style={{ marginLeft: "auto", marginRight: "1em", marginBottom: "0px", display: "inline-block", fontStyle: "normal" }}>     
+            <a href="https://github.com/microsoft/machine-learning-collection">GitHub</a>
+            &nbsp;&nbsp;
+            <a href="https://github.com/microsoft/machine-learning-collection/issues">Contact us</a>
+        </address>
+      </footer>
     </div>
   );
 }

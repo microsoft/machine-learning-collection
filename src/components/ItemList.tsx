@@ -13,7 +13,7 @@ interface ContentListProps{
 }
 const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
     return (
-        <div className="item">
+        <div className="items">
             {items.map((item) => {
                 return <div className="item" key={item.title}>
                         <h2>{item.title}</h2>

@@ -1,0 +1,109 @@
+body{
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  font-size: 15px;
+}
+
+.App .title {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  background-color: #0078d4;
+  color: white;
+  padding-left: 1rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+
+.buttons{
+  margin: 1rem 10rem 1rem 10rem
+}
+
+.button{
+  margin: 0.1rem
+}
+
+.items{
+  width: auto;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  flex:1;
+  text-overflow: ellipsis;
+  width: 50%;
+  height: 100px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer {
+  display: flex;
+  width: 100vw;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  justify-content: left;
+  background-color: #001B2E;
+  color: white;
+  font-size: 1rem;
+}
+
+.footer a{
+  color: white;
+  font-size: 0.8rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.py-2 {
+  padding-bottom: .5rem!important;
+  padding-top: .5rem!important;
+}
