@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/machine-learning-collection/static/css/main.dd5aa621.css",
-    "main.js": "/machine-learning-collection/static/js/main.d50fd36d.js",
+    "main.js": "/machine-learning-collection/static/js/main.3e57ff92.js",
+    "static/media/github-logo.svg": "/machine-learning-collection/static/media/github-logo.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/machine-learning-collection/index.html",
     "main.dd5aa621.css.map": "/machine-learning-collection/static/css/main.dd5aa621.css.map",
-    "main.d50fd36d.js.map": "/machine-learning-collection/static/js/main.d50fd36d.js.map"
+    "main.3e57ff92.js.map": "/machine-learning-collection/static/js/main.3e57ff92.js.map"
   },
   "entrypoints": [
     "static/css/main.dd5aa621.css",
-    "static/js/main.d50fd36d.js"
+    "static/js/main.3e57ff92.js"
   ]
 }
