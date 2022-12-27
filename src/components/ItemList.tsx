@@ -46,7 +46,7 @@ const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
                 const onClick = () => {
                     window.open(item.link, "_blank")
                 }
-                return <Card onClick={onClick} className={styles.card}>
+                return <Card onClick={onClick} className={styles.card} key={item.title}>
                         <CardHeader image={<img src={GitHubIcon} className={styles.headerImage}/>} header={<h3 className={styles.headerTitle}>{item.title}</h3>} className={styles.header}></CardHeader>
                         {item.description}
                        </Card>
