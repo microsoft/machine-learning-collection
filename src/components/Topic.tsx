@@ -25,7 +25,7 @@ const Topic: React.FunctionComponent<ButtonProps> = ({topic, topicFilter, disabl
         <div className="buttons">
             {
                 topic.map((cat, i)=>{
-                    return <Button shape="circular" className={styles.buttonSelected} key={i}>{cat}</Button>
+                    return <Button shape="circular" onClick={()=> topicFilter(cat)} className={styles.buttonSelected} key={i}>{cat}</Button>
                 })
             }
         </div>
