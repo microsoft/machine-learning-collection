@@ -351,3 +351,5 @@ MigrationBackup/
 
 .DS_Store
 /build
+
+*.backup
