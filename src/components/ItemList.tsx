@@ -1,6 +1,7 @@
 import React from 'react'
 import {makeStyles} from "@fluentui/react-components"
-import {Card} from '@fluentui/react-components/unstable'
+import {Card, CardHeader, CardPreview} from '@fluentui/react-components/unstable'
+import GitHubIcon from '../images/github-logo.svg'
 
 export type ContentItem = {
     title: string;
@@ -22,9 +23,20 @@ const useStyles = makeStyles({
         maxWidth: '100%',
         height: 'fit-content'
     },
+    header: {
+        height: "30%"
+    },
+    headerImage: {
+        maxWidth: '2rem',
+        maxHeight: '2rem'
+    },
+    headerTitle: {
+        textAlign: "left"
+    }
     });
 
 const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
+    const styles = useStyles();
     return (
         <div className="items">
             {items.map((item) => {
@@ -32,7 +44,7 @@ const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
                     window.open(item.link, "_blank")
                 }
                 return <Card onClick={onClick}>
-                        <h2>{item.title}</h2>
+                        <CardHeader image={<img src={GitHubIcon} className={styles.headerImage}/>} header={<h3 className={styles.headerTitle}>{item.title}</h3>} className={styles.header}></CardHeader>
                         {item.description}
                        </Card>
             })
