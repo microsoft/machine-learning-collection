@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/machine-learning-collection/static/css/main.f92fcd4c.css",
-    "main.js": "/machine-learning-collection/static/js/main.50cc1301.js",
-    "static/js/787.28cb0dcd.chunk.js": "/machine-learning-collection/static/js/787.28cb0dcd.chunk.js",
+    "main.css": "/machine-learning-collection/static/css/main.dd5aa621.css",
+    "main.js": "/machine-learning-collection/static/js/main.d50fd36d.js",
     "index.html": "/machine-learning-collection/index.html",
-    "main.f92fcd4c.css.map": "/machine-learning-collection/static/css/main.f92fcd4c.css.map",
-    "main.50cc1301.js.map": "/machine-learning-collection/static/js/main.50cc1301.js.map",
-    "787.28cb0dcd.chunk.js.map": "/machine-learning-collection/static/js/787.28cb0dcd.chunk.js.map"
+    "main.dd5aa621.css.map": "/machine-learning-collection/static/css/main.dd5aa621.css.map",
+    "main.d50fd36d.js.map": "/machine-learning-collection/static/js/main.d50fd36d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f92fcd4c.css",
-    "static/js/main.50cc1301.js"
+    "static/css/main.dd5aa621.css",
+    "static/js/main.d50fd36d.js"
   ]
 }
