@@ -19,7 +19,7 @@ const CONTENTS = [
       "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.",
   },
   {
-    title: "FLAML",
+    title: "FLAML FLAML FLAML FLAML FLAML FLAML",
     link: "https://github.com/microsoft/FLAML",
     type: "GitHub",
     topics: [
@@ -95,7 +95,7 @@ const CONTENTS = [
     description: "A fast library for AutoML and tuning.",
   },
   {
-    title: "Neural Network Intelligence2",
+    title: "Neural Network Intelligence2 Neural ",
     link: "https://github.com/microsoft/nni",
     type: "GitHub",
     topics: [

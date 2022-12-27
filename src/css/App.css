@@ -41,12 +41,12 @@ body{
   margin: 10px 10px 10px 10px;
 }
 
-.item{
-  display:flex;
+/* .item{
+  display:gird;
   flex-direction: column;
   text-align: center;
   
-}
+} */
 
 .footer {
   display: flex;

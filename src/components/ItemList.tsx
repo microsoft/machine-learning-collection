@@ -19,19 +19,22 @@ interface ContentListProps{
 
 const useStyles = makeStyles({
     card: {
-        width: '480px',
-        maxWidth: '100%',
-        height: 'fit-content'
+        verticalAlign: "top",
+        textAlign: "left"
     },
     header: {
-        height: "30%"
+        display:"flex",
+        height: "30%",
+        verticalAlign: "middle"
     },
     headerImage: {
+        height: "30%",
         maxWidth: '2rem',
-        maxHeight: '2rem'
+        maxHeight: '2rem',
     },
     headerTitle: {
-        textAlign: "left"
+        height: "30%",
+        textAlign: "left",
     }
     });
 
@@ -43,7 +46,7 @@ const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
                 const onClick = () => {
                     window.open(item.link, "_blank")
                 }
-                return <Card onClick={onClick}>
+                return <Card onClick={onClick} className={styles.card}>
                         <CardHeader image={<img src={GitHubIcon} className={styles.headerImage}/>} header={<h3 className={styles.headerTitle}>{item.title}</h3>} className={styles.header}></CardHeader>
                         {item.description}
                        </Card>
