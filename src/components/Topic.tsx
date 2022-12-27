@@ -1,5 +1,5 @@
 import React from 'react'
-import { DefaultButton, PrimaryButton } from '@fluentui/react/lib/Button';
+import {Button, makeStyles} from "@fluentui/react-components";
 
 interface ButtonProps{
     topic: Array<string>
@@ -8,13 +8,24 @@ interface ButtonProps{
     checked?: boolean;
 }
 
-const Button: React.FunctionComponent<ButtonProps> = ({topic, topicFilter, disabled, checked}) =>{
-    const flag: boolean = true
+const useStyles = makeStyles({
+    button: {
+        marginInline: '0.05rem',
+    },
+    buttonSelected: {
+        marginInline: '0.05rem',
+        backgroundColor: '#0078d4',
+        color: 'white'
+    },
+    });
+
+const Topic: React.FunctionComponent<ButtonProps> = ({topic, topicFilter, disabled, checked}) =>{
+    const styles = useStyles();
     return (
         <div className="buttons">
             {
                 topic.map((cat, i)=>{
-                    return <DefaultButton type="button" onClick={()=> topicFilter(cat)} className="button" checked={flag} key={i}>{cat}</DefaultButton>
+                    return <Button shape="circular" className={styles.buttonSelected} key={i}>{cat}</Button>
                 })
             }
         </div>
@@ -22,4 +33,4 @@ const Button: React.FunctionComponent<ButtonProps> = ({topic, topicFilter, disab
 
 }
 
-export default Button;
+export default Topic;

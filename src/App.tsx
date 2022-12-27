@@ -1,5 +1,4 @@
 import {useState} from 'react'; 
-import { Stack, IStackStyles, IStackTokens, IStackItemStyles } from '@fluentui/react/lib/Stack';
 import './css/App.css';
 import items from "./data/contents.js"
 import ItemList from "./components/ItemList"
