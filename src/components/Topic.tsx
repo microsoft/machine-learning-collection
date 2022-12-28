@@ -14,9 +14,10 @@ const useStyles = makeStyles({
     buttons: {
         marginLeft: '2rem',
         marginRight: '2rem',
+        marginBottom: '1rem',
     },
     button: {
-        marginInline: '0.05rem',
+        marginInline: '0.1rem',
     },
     buttonSelected: {
         marginInline: '0.05rem',

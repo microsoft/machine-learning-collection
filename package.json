@@ -5,6 +5,7 @@
   "homepage": "https://microsoft.github.io/machine-learning-collection",
   "dependencies": {
     "@fluentui/react-components": "^9.7.4",
+    "@fluentui/react-icons": "^2.0.190",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

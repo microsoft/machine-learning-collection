@@ -5,6 +5,7 @@ import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
 import {Button, makeStyles} from "@fluentui/react-components";
 
+
 const allTopics = [...new Set([...items.map((item) => item.topics)].flat())];
 console.log("topics are:", allTopics)
 

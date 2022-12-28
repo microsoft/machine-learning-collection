@@ -19,7 +19,7 @@ const CONTENTS = [
       "A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks.",
   },
   {
-    title: "FLAML FLAML FLAML FLAML FLAML FLAML",
+    title: "FLAML FLAML FLAML FLAML FLAML FLAMLFLAML FLAML FLAML FLAML FLAML FLAML",
     link: "https://github.com/microsoft/FLAML",
     type: "GitHub",
     topics: [
