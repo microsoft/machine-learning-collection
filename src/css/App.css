@@ -7,8 +7,9 @@ body{
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   font-size: 15px;
+  
 }
 
 .App .title {
@@ -24,9 +25,16 @@ body{
   font-size: 0.8rem;
 }
 
+.App .topic-filter-header {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  align-items: center;
+  margin: 1rem 1rem 0rem 3rem
+}
 
 .buttons{
-  margin: 1rem 1rem 1rem 1rem
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 .button{
@@ -41,12 +49,6 @@ body{
   margin: 10px 10px 10px 10px;
 }
 
-/* .item{
-  display:gird;
-  flex-direction: column;
-  text-align: center;
-  
-} */
 
 .footer {
   display: flex;

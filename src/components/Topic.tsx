@@ -11,9 +11,12 @@ interface ButtonProps{
 }
 
 const useStyles = makeStyles({
+    buttons: {
+        marginLeft: '2rem',
+        marginRight: '2rem',
+    },
     button: {
         marginInline: '0.05rem',
-        //':hover': { color: 'black', backgroundColor: 'white'},
     },
     buttonSelected: {
         marginInline: '0.05rem',
@@ -27,7 +30,7 @@ const Topic: React.FunctionComponent<ButtonProps> = ({map, selectedTopic, topicl
     const styles = useStyles();
     console.log(selectedTopic);
     return (
-        <div>
+        <div className={styles.buttons}>
             {
                 topiclist.map((cat, i)=>{
                     if (selectedTopic.includes(cat)){

@@ -1,14 +1,22 @@
-import {useState, useEffect} from 'react'; 
+import {useState} from 'react'; 
 import './css/App.css';
 import items from "./data/contents.js"
 import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
+import {Button, makeStyles} from "@fluentui/react-components";
 
 const allTopics = [...new Set([...items.map((item) => item.topics)].flat())];
 console.log("topics are:", allTopics)
 
+const useStyles = makeStyles({
+  topicHeader: {
+    color: "blue",
+    fontSize: "1.2rem"
+  }
+})
+
 function App() {
-  const map = new Map<string, boolean>();
+  const styles = useStyles();
   const topicMaps = new Map<string, boolean>();
   
   allTopics.map((topic) => {
@@ -36,9 +44,6 @@ function App() {
         console.log("filteredData...(delete)", filteredData);
         setItem(filteredData);
       }
-
-
-
     } else {
       console.log("### add new topic ###");
       const newSelectedTopic = [...selectedTopic, button]
@@ -64,9 +69,11 @@ function App() {
       <div className="title">
         <h1>Machine Learning Collection</h1>
       </div>
-      <h2>Topics</h2>
-      <button onClick={() => initState()}>Reset</button>
-      <Topic map={maps} selectedTopic={selectedTopic} topiclist={allTopics} topicFilter={topicFilter} />
+      <div className="topic-filter-header">
+        <h4>Topics</h4>
+        <Button onClick={() => initState()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+      </div>
+      <Topic map={maps} selectedTopic={selectedTopic} topiclist={allTopics} topicFilter={topicFilter}/>
       <ItemList items={Item} />
       <footer className="footer">
       <span>Copyright &copy; Microsoft Corporation</span>
