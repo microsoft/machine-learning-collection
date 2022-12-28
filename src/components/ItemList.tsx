@@ -39,7 +39,7 @@ const useStyles = makeStyles({
     headerTitle: {
         fontSize: "1rem",
 
-        textOverflow: "ellipsis",
+        
     },
     headerOpen: {
         alignContent: "right",

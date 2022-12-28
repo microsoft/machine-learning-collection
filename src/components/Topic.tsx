@@ -18,6 +18,7 @@ const useStyles = makeStyles({
     },
     button: {
         marginInline: '0.1rem',
+        marginBlock: '0.1rem'
     },
     buttonSelected: {
         marginInline: '0.05rem',
