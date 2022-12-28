@@ -3,6 +3,7 @@ import {Button, makeStyles} from "@fluentui/react-components";
 
 interface ButtonProps{
     map: Map<string, boolean>
+    selectedTopic: Array<string>
     topiclist: Array<string>
     topicFilter:Function
     disabled?: boolean;
@@ -12,24 +13,27 @@ interface ButtonProps{
 const useStyles = makeStyles({
     button: {
         marginInline: '0.05rem',
+        //':hover': { color: 'black', backgroundColor: 'white'},
     },
     buttonSelected: {
         marginInline: '0.05rem',
         backgroundColor: '#0078d4',
-        color: "white"
+        color: "white",
+        ':hover': { color: 'white', backgroundColor: '#0078d4'},
     },
     });
 
-const Topic: React.FunctionComponent<ButtonProps> = ({map, topiclist, topicFilter, disabled, checked}) =>{
+const Topic: React.FunctionComponent<ButtonProps> = ({map, selectedTopic, topiclist, topicFilter, disabled, checked}) =>{
     const styles = useStyles();
+    console.log(selectedTopic);
     return (
-        <div className="buttons">
+        <div>
             {
                 topiclist.map((cat, i)=>{
-                    if (map.get(cat) == true) {
+                    if (selectedTopic.includes(cat)){
                         return <Button shape="circular" onClick={()=> topicFilter(cat)} className={styles.buttonSelected} key={cat}>{cat}</Button>
                     } else {
-                        return <Button shape="circular" onClick={()=> topicFilter(cat)}  key={cat}>{cat}</Button>
+                        return <Button shape="circular" onClick={()=> topicFilter(cat)} className={styles.button} key={cat}>{cat}</Button>
                     }
                     
                 })
