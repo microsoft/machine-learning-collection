@@ -1,12 +1,11 @@
 import React from 'react'
 import {Button, makeStyles} from "@fluentui/react-components";
+import internal from 'stream';
 
 interface ButtonProps{
-    selectedTopic: Array<string>
-    topiclist: Array<string>
-    topicFilter:Function
-    disabled?: boolean;
-    checked?: boolean;
+    selectedTopics: Array<string>
+    allTopics: Array<string>
+    filterFunc: Function
 }
 
 const useStyles = makeStyles({
@@ -27,24 +26,39 @@ const useStyles = makeStyles({
     },
     });
 
-const Topic: React.FunctionComponent<ButtonProps> = ({selectedTopic, topiclist, topicFilter, disabled, checked}) =>{
+
+const Topic: React.FunctionComponent<ButtonProps> = (props) =>{
     const styles = useStyles();
-    console.log(selectedTopic);
+    console.log(props);
     return (
         <div className={styles.buttons}>
-            {
-                topiclist.map((cat, i)=>{
-                    if (selectedTopic.includes(cat)){
-                        return <Button shape="circular" onClick={()=> topicFilter(cat)} className={styles.buttonSelected} key={cat}>{cat}</Button>
-                    } else {
-                        return <Button shape="circular" onClick={()=> topicFilter(cat)} className={styles.button} key={cat}>{cat}</Button>
-                    }
-                    
-                })
-            }
+            {props.allTopics.map((topic, i) =>{
+                return <Button onClick={()=> props.filterFunc(topic)} shape="circular" className={props.selectedTopics.includes(topic) ? `${styles.buttonSelected}` : `${styles.button}`} key={i}>{topic}</Button>
+            })}
         </div>
     )
 
 }
+
+
+// const Topic: React.FunctionComponent<ButtonProps> = (selectedTopic, topiclist) =>{
+//     const styles = useStyles();
+//     console.log(selectedTopic);
+//     return (
+//         <div className={styles.buttons}>
+//             {
+//                 topiclist.map((cat:string, i:number)=>{
+//                     if (selectedTopic.includes(cat)){
+//                         return <Button shape="circular"  className={styles.buttonSelected} key={cat}>{cat}</Button>
+//                     } else {
+//                         return <Button shape="circular"  className={styles.button} key={cat}>{cat}</Button>
+//                     }
+                    
+//                 })
+//             }
+//         </div>
+//     )
+
+// }
 
 export default Topic;

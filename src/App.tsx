@@ -69,6 +69,12 @@ function App() {
     )
   }
 
+  function filterFunc(topic:string){
+    console.log("filterFunc");
+    console.log(topic, "was clicked.");
+    setTopics([...topics, topic]);
+  }
+
   function resetStates(){
     setSearch("");
     setTopics([]);
@@ -92,7 +98,7 @@ function App() {
     )
   }
 
-  
+
   const TopicDetail = (props:{topic: string}) => {
     const topic = props.topic
     return (
@@ -110,7 +116,6 @@ function App() {
       </div>
       <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
       <div className="search">
-        {/* <input type="text" placeholder='Search...' onChange={(e) => setSearch(e.target.value)} /> */}
         <input value={search} type="text" placeholder='Search...' onChange={handleChange} />
       </div>
       <div className="topicFilter">
@@ -119,6 +124,7 @@ function App() {
         ))}
         <h3>selected topics</h3>
           {topics}
+        <Topic selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></Topic>
       </div>
       {filteredItem.map((item, idx) => (
         <ItemDetail key={idx} {...item} />
