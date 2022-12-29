@@ -1,8 +1,18 @@
-const CONTENTS = [
+type CATEGORY =  'github' | 'youtube' | 'other';
+
+interface Content {
+  title: string,
+  link: string,
+  type: CATEGORY,
+  topics: string[],
+  description: string
+}
+
+const CONTENTS:Content[] = [
   {
     title: "LightGBM",
     link: "https://github.com/microsoft/lightgbm",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "r",
@@ -21,7 +31,7 @@ const CONTENTS = [
   {
     title: "FLAML FLAML FLAML FLAML FLAML FLAMLFLAML FLAML FLAML FLAML FLAML FLAML",
     link: "https://github.com/microsoft/FLAML",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "data-science",
@@ -41,7 +51,7 @@ const CONTENTS = [
   {
     title: "Neural Network Intelligence",
     link: "https://github.com/microsoft/nni",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "data-science",
@@ -58,7 +68,7 @@ const CONTENTS = [
   {
     title: "LightGBM2",
     link: "https://github.com/microsoft/lightgbm",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "r",
@@ -77,7 +87,7 @@ const CONTENTS = [
   {
     title: "FLAML2",
     link: "https://github.com/microsoft/FLAML",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "data-science",
@@ -97,7 +107,7 @@ const CONTENTS = [
   {
     title: "Neural Network Intelligence2 Neural ",
     link: "https://github.com/microsoft/nni",
-    type: "GitHub",
+    type: "github",
     topics: [
       "python",
       "data-science",

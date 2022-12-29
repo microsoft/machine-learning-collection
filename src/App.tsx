@@ -1,13 +1,20 @@
-import {useState} from 'react'; 
+import {useEffect, useState} from 'react'; 
 import './css/App.css';
-import items from "./data/contents.js"
+import contents from "./data/contents"
 import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
 import {Button, makeStyles} from "@fluentui/react-components";
+import internal from 'stream';
 
+type CATEGORY =  'github' | 'youtube' | 'other';
 
-const allTopics = [...new Set([...items.map((item) => item.topics)].flat())];
-console.log("topics are:", allTopics)
+interface Content {
+  title: string,
+  link: string,
+  type: CATEGORY,
+  topics: string[],
+  description: string
+}
 
 const useStyles = makeStyles({
   topicHeader: {
@@ -17,75 +24,100 @@ const useStyles = makeStyles({
 })
 
 function App() {
+  const data:Content[] = contents;
+  console.log(data);
+
+  const allTopics = [...new Set([...contents.map((item) => item.topics)].flat())];
+  console.log("topics are:", allTopics)
+
+  //style for fluent ui
   const styles = useStyles();
-  const topicMaps = new Map<string, boolean>();
+
+  //state
+  const [items, setItems] = useState<Content[]>(data);
+  const [search, setSearch] = useState("");
+  const [topics, setTopics] = useState<string[]>([]);
+  const [filteredItem, setfilteredItem] = useState<Content[]>(data);
+
+  console.log("Items are:", items);
+
+  useEffect(() => {
+    console.log("useEffect for search:", topics);
+    setfilteredItem(
+      items.filter((item) =>
+        item.description.toLowerCase().includes(search.toLocaleLowerCase()))
+    )
+
+  }, [search, items]);
   
-  allTopics.map((topic) => {
-    topicMaps.set(topic, false);
-  })
-   
-  const initTopicMaps = new Map(topicMaps);
-  const [Item, setItem] = useState(items);
-  const [maps, setMaps] = useState(topicMaps);
-  const [selectedTopic, setSelectedTopic] = useState(Array<string>())
 
-  const topicFilter = (button:string) => {
-    console.log(button, selectedTopic)
-    if (selectedTopic.includes(button)) {
-      console.log("### delete existing ###")
-      const newSelectedTopic = selectedTopic.filter(n => n !== button)
-      console.log("newSelectedTopic", newSelectedTopic)
-      setSelectedTopic(newSelectedTopic);
-      if (newSelectedTopic.length ==0) {
-        const filteredData = items
-        console.log("filteredData...(delete, length==0)", filteredData);
-        setItem(filteredData);
-      } else {
-        const filteredData = Item.filter((item) => newSelectedTopic.every(el => item.topics.includes(el)));
-        console.log("filteredData...(delete)", filteredData);
-        setItem(filteredData);
-      }
-    } else {
-      console.log("### add new topic ###");
-      const newSelectedTopic = [...selectedTopic, button]
-      setSelectedTopic([...selectedTopic, button]);
-      console.log("isAllInclude for ", newSelectedTopic);
-      const filteredData = Item.filter((item) => newSelectedTopic.every(el => item.topics.includes(el)));
-      console.log("filteredData...(add)", filteredData);
-      setItem(filteredData);
-    };
+  useEffect(() => {
+    console.log("useEffect for topics:", topics);
+    setfilteredItem(
+      items.filter((item) =>
+        //item.topics.toLowerCase().includes(search.toLocaleLowerCase()))
+        //item.topics.every(el => topics.includes(el)))
+        topics.every(el => item.topics.includes(el)))
+    )
+  }, [topics, items]);
 
+  function resetStates(){
+    setSearch("");
+    setTopics([]);
+    setfilteredItem(data);
+  }
+  
+  const handleChange = (event:any) => {
+    setSearch(event.target.value);
   };
 
-  function initState():void {
-    console.log("reset")
-    setMaps(initTopicMaps);
-    setItem(items);
-    setSelectedTopic(Array<string>());
-
+  const ItemDetail = (props:Content) => {
+    const {title, link, type, topics, description} = props;
+    return (
+      <div>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <p>{topics}</p>
+      </div>
+  
+    )
   }
-
+  
+  const TopicDetail = (props:{topic: string}) => {
+    const topic = props.topic
+    return (
+      <button onClick={()=> setTopics([...topics, topic])}>
+        <a>{topic}</a>
+      </button>
+  
+    )
+  }
+  
   return (
     <div className="App">
       <div className="title">
-        <h1>Machine Learning Collection</h1>
+        <h1> Machine Learning Collection </h1>
       </div>
-      <div className="topic-filter-header">
-        <h4>Topics</h4>
-        <Button onClick={() => initState()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+      <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+      <div className="search">
+        {/* <input type="text" placeholder='Search...' onChange={(e) => setSearch(e.target.value)} /> */}
+        <input value={search} type="text" placeholder='Search...' onChange={handleChange} />
       </div>
-      <Topic map={maps} selectedTopic={selectedTopic} topiclist={allTopics} topicFilter={topicFilter}/>
-      <ItemList items={Item} />
-      <footer className="footer">
-      <span>Copyright &copy; Microsoft Corporation</span>
-        <address style={{ marginLeft: "auto", marginRight: "1em", marginBottom: "0px", display: "inline-block", fontStyle: "normal" }}>     
-            <a href="https://github.com/microsoft/machine-learning-collection">GitHub</a>
-            &nbsp;&nbsp;
-            <a href="https://github.com/microsoft/machine-learning-collection/issues">Contact us</a>
-        </address>
-      </footer>
+      <div className="topicFilter">
+        {allTopics.map((topic, idx) => (
+          <TopicDetail key={idx} topic={topic} />
+        ))}
+        <h3>selected topics</h3>
+          {topics}
+      </div>
+      {filteredItem.map((item, idx) => (
+        <ItemDetail key={idx} {...item} />
+      ))}
+
     </div>
-  );
+  )
 }
 
+
 export default App;
+

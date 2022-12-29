@@ -2,7 +2,6 @@ import React from 'react'
 import {Button, makeStyles} from "@fluentui/react-components";
 
 interface ButtonProps{
-    map: Map<string, boolean>
     selectedTopic: Array<string>
     topiclist: Array<string>
     topicFilter:Function
@@ -28,7 +27,7 @@ const useStyles = makeStyles({
     },
     });
 
-const Topic: React.FunctionComponent<ButtonProps> = ({map, selectedTopic, topiclist, topicFilter, disabled, checked}) =>{
+const Topic: React.FunctionComponent<ButtonProps> = ({selectedTopic, topiclist, topicFilter, disabled, checked}) =>{
     const styles = useStyles();
     console.log(selectedTopic);
     return (
