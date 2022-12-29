@@ -61,6 +61,14 @@ function App() {
     )
   }, [topics, items]);
 
+  function highlightText(text:string, search:string) {
+    return (
+      <span style={{backgroundColor: 'yellow'}}>
+        {text}
+      </span>
+    )
+  }
+
   function resetStates(){
     setSearch("");
     setTopics([]);
@@ -77,11 +85,13 @@ function App() {
       <div>
         <h3>{title}</h3>
         <p>{description}</p>
+        {/* <p>{highlightText(description, search)}</p>   */}
         <p>{topics}</p>
       </div>
   
     )
   }
+
   
   const TopicDetail = (props:{topic: string}) => {
     const topic = props.topic
@@ -92,7 +102,7 @@ function App() {
   
     )
   }
-  
+
   return (
     <div className="App">
       <div className="title">
