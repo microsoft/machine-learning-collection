@@ -5,17 +5,18 @@ import GitHubIcon from '../images/github-logo.svg'
 import {Open24Filled} from "@fluentui/react-icons"
 import {Button, makeStyles} from "@fluentui/react-components";
 
-export type ContentItem = {
-    title: string;
-    link: string;
-    type: string;
-    topics: Array<string>;
-    description: string;
-}
+type CATEGORY =  'github' | 'youtube' | 'other';
 
+interface Content {
+    title: string,
+    link: string,
+    type: CATEGORY,
+    topics: string[],
+    description: string
+  }
 
 interface ContentListProps{
-    items: Array<ContentItem>
+    items: Array<Content>
 }
 
 const useStyles = makeStyles({
@@ -49,8 +50,17 @@ const useStyles = makeStyles({
     }
     });
 
-const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
+function highlightText(text:string, search:string) {
+    return (
+        <span style={{backgroundColor: 'yellow'}}>
+        {text}
+        </span>
+    )
+    }
+
+const ItemList: React.FunctionComponent<ContentListProps> = (props) =>{
     const styles = useStyles();
+    const items = props.items;
     return (
         <div className="items">
             {items.map((item) => {
@@ -58,9 +68,8 @@ const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
                     window.open(item.link, "_blank")
                 }
                 return <Card className={styles.verticalCard} key={item.title}>
-                        {/* <CardHeader onClick={onClick} image={<img src={GitHubIcon} className={styles.headerImage}/>} header={<h3 className={styles.headerTitle}>{item.title}</h3>} action={<Open24Filled className={styles.headerOpen}/>} className={styles.header}></CardHeader> */}
                         <CardHeader onClick={onClick} image={<img src={GitHubIcon} className={styles.headerImage}/>} header={<h3 className={styles.headerTitle}>{item.title}</h3>} action={<Button appearance="transparent" icon={<Open24Filled className={styles.headerOpen}/>} aria-label="go to website" />} className={styles.header}></CardHeader>
-                        {item.description}
+                        {highlightText(`${item.description}`, "")}
                         
                        </Card>
             })
@@ -70,5 +79,6 @@ const ItemList: React.FunctionComponent<ContentListProps> = ({items}) =>{
     )
 
 }
+
 
 export default ItemList;

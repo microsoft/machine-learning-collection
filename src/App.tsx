@@ -61,13 +61,7 @@ function App() {
     )
   }, [topics, items]);
 
-  function highlightText(text:string, search:string) {
-    return (
-      <span style={{backgroundColor: 'yellow'}}>
-        {text}
-      </span>
-    )
-  }
+
 
   function filterFunc(topic:string){
     console.log("filterFunc");
@@ -85,6 +79,25 @@ function App() {
     setSearch(event.target.value);
   };
 
+  const TopicDetail = (props:{topic: string}) => {
+    const topic = props.topic
+    return (
+      <button onClick={()=> setTopics([...topics, topic])}>
+        <a>{topic}</a>
+      </button>
+  
+    )
+  }
+
+
+  function highlightText(text:string, search:string) {
+    return (
+      <span style={{backgroundColor: 'yellow'}}>
+        {text}
+      </span>
+    )
+  }
+
   const ItemDetail = (props:Content) => {
     const {title, link, type, topics, description} = props;
     return (
@@ -94,17 +107,6 @@ function App() {
         {/* <p>{highlightText(description, search)}</p>   */}
         <p>{topics}</p>
       </div>
-  
-    )
-  }
-
-
-  const TopicDetail = (props:{topic: string}) => {
-    const topic = props.topic
-    return (
-      <button onClick={()=> setTopics([...topics, topic])}>
-        <a>{topic}</a>
-      </button>
   
     )
   }
@@ -119,17 +121,19 @@ function App() {
         <input value={search} type="text" placeholder='Search...' onChange={handleChange} />
       </div>
       <div className="topicFilter">
-        {allTopics.map((topic, idx) => (
+        {/* {allTopics.map((topic, idx) => (
           <TopicDetail key={idx} topic={topic} />
         ))}
         <h3>selected topics</h3>
-          {topics}
+          {topics} */}
         <Topic selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></Topic>
       </div>
-      {filteredItem.map((item, idx) => (
+      <div className="items">
+      {/* {filteredItem.map((item, idx) => (
         <ItemDetail key={idx} {...item} />
-      ))}
-
+      ))} */}
+      <ItemList items={filteredItem}></ItemList>
+      </div>
     </div>
   )
 }
