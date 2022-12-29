@@ -52,7 +52,7 @@ const useStyles = makeStyles({
 
 function highlightText(text:string, search:string) {
     return (
-        <span style={{backgroundColor: 'yellow'}}>
+        <span style={{backgroundColor: 'white'}}>
         {text}
         </span>
     )

@@ -3,7 +3,7 @@ import './css/App.css';
 import contents from "./data/contents"
 import ItemList from "./components/ItemList"
 import Topic from "./components/Topic"
-import {Button, makeStyles} from "@fluentui/react-components";
+import {Button, Input, makeStyles} from "@fluentui/react-components";
 import internal from 'stream';
 
 type CATEGORY =  'github' | 'youtube' | 'other';
@@ -89,7 +89,6 @@ function App() {
     )
   }
 
-
   function highlightText(text:string, search:string) {
     return (
       <span style={{backgroundColor: 'yellow'}}>
@@ -116,9 +115,9 @@ function App() {
       <div className="title">
         <h1> Machine Learning Collection </h1>
       </div>
-      <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
       <div className="search">
-        <input value={search} type="text" placeholder='Search...' onChange={handleChange} />
+        {/* <input value={search} type="text" placeholder='Search...' onChange={handleChange} /> */}
+        <Input value={search} type="text" placeholder='Search ...' onChange={handleChange}></Input>
       </div>
       <div className="topicFilter">
         {/* {allTopics.map((topic, idx) => (
@@ -126,6 +125,10 @@ function App() {
         ))}
         <h3>selected topics</h3>
           {topics} */}
+        <div className="topicFilterHeader">
+          <h4>topic</h4>
+          <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+        </div>
         <Topic selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></Topic>
       </div>
       <div className="items">
