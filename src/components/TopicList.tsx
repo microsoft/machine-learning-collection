@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Button, makeStyles} from "@fluentui/react-components";
 import internal from 'stream';
 
@@ -7,6 +7,7 @@ interface ButtonProps{
     allTopics: Array<string>
     filterFunc: Function
 }
+
 
 const useStyles = makeStyles({
     buttons: {
@@ -27,38 +28,18 @@ const useStyles = makeStyles({
     });
 
 
-const Topic: React.FunctionComponent<ButtonProps> = (props) =>{
+const TopicList: React.FunctionComponent<ButtonProps> = (props) =>{
     const styles = useStyles();
     console.log(props);
     return (
         <div className={styles.buttons}>
             {props.allTopics.map((topic, i) =>{
                 return <Button onClick={()=> props.filterFunc(topic)} shape="circular" className={props.selectedTopics.includes(topic) ? `${styles.buttonSelected}` : `${styles.button}`} key={i}>{topic}</Button>
+                //return <TopicSelect func={props.filterFunc} topic={topic} selected={props.selectedTopics.includes(topic)} key={i}></TopicSelect>
             })}
         </div>
     )
 
 }
 
-
-// const Topic: React.FunctionComponent<ButtonProps> = (selectedTopic, topiclist) =>{
-//     const styles = useStyles();
-//     console.log(selectedTopic);
-//     return (
-//         <div className={styles.buttons}>
-//             {
-//                 topiclist.map((cat:string, i:number)=>{
-//                     if (selectedTopic.includes(cat)){
-//                         return <Button shape="circular"  className={styles.buttonSelected} key={cat}>{cat}</Button>
-//                     } else {
-//                         return <Button shape="circular"  className={styles.button} key={cat}>{cat}</Button>
-//                     }
-                    
-//                 })
-//             }
-//         </div>
-//     )
-
-// }
-
-export default Topic;
+export default TopicList;

@@ -2,11 +2,12 @@ import {useEffect, useState} from 'react';
 import './css/App.css';
 import contents from "./data/contents"
 import ItemList from "./components/ItemList"
-import Topic from "./components/Topic"
+import TopicList from "./components/TopicList"
 import {Button, Input, makeStyles} from "@fluentui/react-components";
 import internal from 'stream';
 
 type CATEGORY =  'github' | 'youtube' | 'other';
+type toggle = 'AND' | 'OR'
 
 interface Content {
   title: string,
@@ -38,6 +39,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [topics, setTopics] = useState<string[]>([]);
   const [filteredItem, setfilteredItem] = useState<Content[]>(data);
+  const [topicToggle, setTopicToggle] = useState<toggle>("AND");
 
   console.log("Items are:", items);
 
@@ -53,12 +55,24 @@ function App() {
 
   useEffect(() => {
     console.log("useEffect for topics:", topics);
+    console.log(topicToggle);
     setfilteredItem(
       items.filter((item) =>
+        {if (topicToggle==="AND"){
+          console.log(topicToggle);
+          return topics.every(el => item.topics.includes(el));
+        } else {
+          return topics.some(el => item.topics.includes(el));
+        }}
+      ))
         //item.topics.toLowerCase().includes(search.toLocaleLowerCase()))
         //item.topics.every(el => topics.includes(el)))
-        topics.every(el => item.topics.includes(el)))
-    )
+      //   if (topicToggle == "AND") {
+      //     topics.every(el => item.topics.includes(el))
+      //   } else {
+      //     topics.some(el => item.topics.includes(el))
+      //   }
+      // ))
   }, [topics, items]);
 
 
@@ -66,7 +80,11 @@ function App() {
   function filterFunc(topic:string){
     console.log("filterFunc");
     console.log(topic, "was clicked.");
-    setTopics([...topics, topic]);
+    if (topics.includes(topic)) {
+      setTopics(topics.filter(n => n!==topic))
+    } else {
+      setTopics([...topics, topic]);
+    }
   }
 
   function resetStates(){
@@ -129,7 +147,7 @@ function App() {
           <h4>topic</h4>
           <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
         </div>
-        <Topic selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></Topic>
+        <TopicList selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></TopicList>
       </div>
       <div className="items">
       {/* {filteredItem.map((item, idx) => (
