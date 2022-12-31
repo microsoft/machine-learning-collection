@@ -3,7 +3,7 @@ import './css/App.css';
 import contents from "./data/contents"
 import ItemList from "./components/ItemList"
 import TopicList from "./components/TopicList"
-import {Button, Input, makeStyles} from "@fluentui/react-components";
+import {Button, Input, RadioGroupOnChangeData, RadioGroup, Radio, makeStyles, ToggleButton} from "@fluentui/react-components";
 import internal from 'stream';
 
 type CATEGORY =  'github' | 'youtube' | 'other';
@@ -21,6 +21,10 @@ const useStyles = makeStyles({
   topicHeader: {
     color: "blue",
     fontSize: "1.2rem"
+  },
+  toggle: {
+    // display: "flex",
+    // flexDirection: "column",
   }
 })
 
@@ -39,7 +43,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [topics, setTopics] = useState<string[]>([]);
   const [filteredItem, setfilteredItem] = useState<Content[]>(data);
-  const [topicToggle, setTopicToggle] = useState<toggle>("AND");
+  const [topicToggle, setTopicToggle] = useState("AND");
 
   console.log("Items are:", items);
 
@@ -58,21 +62,18 @@ function App() {
     console.log(topicToggle);
     setfilteredItem(
       items.filter((item) =>
-        {if (topicToggle==="AND"){
+        {if (topics.length==0) {
+          console.log("topics length is zero");
+          return item;
+        } else if (topicToggle==="AND"){
           console.log(topicToggle);
+          console.log("debug for", topics, topics.every(el => item.topics.includes(el)));
           return topics.every(el => item.topics.includes(el));
         } else {
+          console.log(topicToggle);
           return topics.some(el => item.topics.includes(el));
         }}
       ))
-        //item.topics.toLowerCase().includes(search.toLocaleLowerCase()))
-        //item.topics.every(el => topics.includes(el)))
-      //   if (topicToggle == "AND") {
-      //     topics.every(el => item.topics.includes(el))
-      //   } else {
-      //     topics.some(el => item.topics.includes(el))
-      //   }
-      // ))
   }, [topics, items]);
 
 
@@ -97,6 +98,21 @@ function App() {
     setSearch(event.target.value);
   };
 
+  const toggleHandleChange = (data:RadioGroupOnChangeData) => {
+    setTopicToggle(data.value);
+  };
+
+  const Toggle = () =>{
+    const styles = useStyles();
+    return (
+    <div className={styles.toggle}>
+      <RadioGroup value={topicToggle} layout="horizontal" onChange={(e, data) => toggleHandleChange(data)}>
+        <Radio value="AND" label="AND" />
+        <Radio value="OR" label="OR" />
+      </RadioGroup>
+    </div>
+    )
+  }
   const TopicDetail = (props:{topic: string}) => {
     const topic = props.topic
     return (
@@ -146,6 +162,7 @@ function App() {
         <div className="topicFilterHeader">
           <h4>topic</h4>
           <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+          <Toggle></Toggle>
         </div>
         <TopicList selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></TopicList>
       </div>
