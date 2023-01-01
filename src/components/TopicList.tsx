@@ -35,7 +35,6 @@ const TopicList: React.FunctionComponent<ButtonProps> = (props) =>{
         <div className={styles.buttons}>
             {props.allTopics.map((topic, i) =>{
                 return <Button onClick={()=> props.filterFunc(topic)} shape="circular" className={props.selectedTopics.includes(topic) ? `${styles.buttonSelected}` : `${styles.button}`} key={i}>{topic}</Button>
-                //return <TopicSelect func={props.filterFunc} topic={topic} selected={props.selectedTopics.includes(topic)} key={i}></TopicSelect>
             })}
         </div>
     )

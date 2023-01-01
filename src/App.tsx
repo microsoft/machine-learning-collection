@@ -3,8 +3,8 @@ import './css/App.css';
 import contents from "./data/contents"
 import ItemList from "./components/ItemList"
 import TopicList from "./components/TopicList"
-import {Button, Input, RadioGroupOnChangeData, RadioGroup, Radio, makeStyles, ToggleButton} from "@fluentui/react-components";
-import internal from 'stream';
+import {Button, Input, RadioGroupOnChangeData, RadioGroup, Radio, makeStyles, Text} from "@fluentui/react-components";
+
 
 type CATEGORY =  'github' | 'youtube' | 'other';
 type toggle = 'AND' | 'OR'
@@ -18,13 +18,20 @@ interface Content {
 }
 
 const useStyles = makeStyles({
-  topicHeader: {
-    color: "blue",
-    fontSize: "1.2rem"
+  topicText: {
+    fontSize: "1.2rem",
+    flexGrow: "1"
   },
-  toggle: {
-    // display: "flex",
-    // flexDirection: "column",
+  topicReset: {
+    color: "blue",
+    fontSize: "1.2rem",
+  },
+  topicSpacer: {
+    flexGrow: "1",
+  },
+  topicToggle: {
+    display: "flex",
+    justifyContent: "flex-end",
   }
 })
 
@@ -105,42 +112,12 @@ function App() {
   const Toggle = () =>{
     const styles = useStyles();
     return (
-    <div className={styles.toggle}>
+    <div className={styles.topicToggle}>
       <RadioGroup value={topicToggle} layout="horizontal" onChange={(e, data) => toggleHandleChange(data)}>
         <Radio value="AND" label="AND" />
-        <Radio value="OR" label="OR" />
+        <Radio value="OR" label="OR"  />
       </RadioGroup>
     </div>
-    )
-  }
-  const TopicDetail = (props:{topic: string}) => {
-    const topic = props.topic
-    return (
-      <button onClick={()=> setTopics([...topics, topic])}>
-        <a>{topic}</a>
-      </button>
-  
-    )
-  }
-
-  function highlightText(text:string, search:string) {
-    return (
-      <span style={{backgroundColor: 'yellow'}}>
-        {text}
-      </span>
-    )
-  }
-
-  const ItemDetail = (props:Content) => {
-    const {title, link, type, topics, description} = props;
-    return (
-      <div>
-        <h3>{title}</h3>
-        <p>{description}</p>
-        {/* <p>{highlightText(description, search)}</p>   */}
-        <p>{topics}</p>
-      </div>
-  
     )
   }
 
@@ -150,26 +127,20 @@ function App() {
         <h1> Machine Learning Collection </h1>
       </div>
       <div className="search">
-        {/* <input value={search} type="text" placeholder='Search...' onChange={handleChange} /> */}
-        <Input value={search} type="text" placeholder='Search ...' onChange={handleChange}></Input>
+        <Input value={search} type="text" placeholder='Search ...' onChange={handleChange} className="box"></Input>
       </div>
       <div className="topicFilter">
-        {/* {allTopics.map((topic, idx) => (
-          <TopicDetail key={idx} topic={topic} />
-        ))}
-        <h3>selected topics</h3>
-          {topics} */}
         <div className="topicFilterHeader">
-          <h4>topic</h4>
-          <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicHeader}>Reset</Button>
+          <div className={styles.topicText}>
+          <Text weight="bold">topics</Text>
+          <Button onClick={() => resetStates()} appearance="transparent" className={styles.topicReset}>Reset</Button>
+          </div>
+          <div className={styles.topicSpacer}></div>
           <Toggle></Toggle>
         </div>
         <TopicList selectedTopics={topics} allTopics={allTopics} filterFunc={filterFunc}></TopicList>
       </div>
       <div className="items">
-      {/* {filteredItem.map((item, idx) => (
-        <ItemDetail key={idx} {...item} />
-      ))} */}
       <ItemList items={filteredItem}></ItemList>
       </div>
     </div>

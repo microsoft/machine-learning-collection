@@ -1,6 +1,5 @@
 import React from 'react'
-// import {makeStyles} from "@fluentui/react-components"
-import {Card, CardHeader, CardPreview} from '@fluentui/react-components/unstable'
+import {Card, CardHeader} from '@fluentui/react-components/unstable'
 import GitHubIcon from '../images/github-logo.svg'
 import {Open24Filled} from "@fluentui/react-icons"
 import {Button, makeStyles} from "@fluentui/react-components";

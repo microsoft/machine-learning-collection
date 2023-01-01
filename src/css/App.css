@@ -7,7 +7,6 @@ body{
 }
 
 .App {
-  /* text-align: left; */
   font-size: 15px;
   
 }
@@ -27,15 +26,21 @@ body{
 .App .topicFilterHeader {
   display: flex;
   flex-direction: row;
-  gap: 0rem;
   align-items: center;
-  margin: 1rem 1rem 0rem 3rem
+  margin: 1rem 3rem 0rem 3rem;
+  column-gap: 10rem 2rem;
 }
 
 .search{
+  display: flex;
+  justify-content: center;
   margin: 1rem 1rem 1rem 1rem;
-  text-align: center;
 }
+
+.search .box{
+  width: 25%;
+}
+
 
 .buttons{
   margin: 1rem 1rem 1rem 1rem;
